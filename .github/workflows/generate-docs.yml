@@ -7,11 +7,11 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      name: Generate docs for challenges
-      uses: actions/checkout@v4
-      run: |
-        bash genDoc.sh */
-        git config --global user.name 'github-actions[bot]'
-        git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git commit -am 'Automated generation of docs for challenges'
-        git push
+      - name: Generate docs for challenges
+        uses: actions/checkout@v4
+        run: |
+          bash genDoc.sh */
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git commit -am 'Automated generation of docs for challenges'
+          git push
