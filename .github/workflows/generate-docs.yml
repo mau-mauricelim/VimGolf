@@ -7,8 +7,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate docs for challenges
+      - name: Checkout
         uses: actions/checkout@v4
+      - name: Generate docs for challenges
         run: |
           bash genDoc.sh */
           git config --global user.name 'github-actions[bot]'
