@@ -11,9 +11,4 @@ https://www.vimgolf.com/45533/mau-mauricelim
 4. Use capital letter motion instead of double letter. E.g. Replace `yy` with `Y`.
 5. Use `ZZ` to quit vim instead of `:x<CR>` or `:wq<CR>`.
 
-## Generate docs
-- TODO: use GitHub Actions
-
-`bash genDoc.sh */`
-
 Happy golfing! ⛳
