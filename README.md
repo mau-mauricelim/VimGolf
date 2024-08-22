@@ -13,6 +13,7 @@ https://www.vimgolf.com/45533/mau-mauricelim
 
 ## Generate docs
 - TODO: use GitHub Actions
+
 `bash genDoc.sh */`
 
 Happy golfing! ⛳
