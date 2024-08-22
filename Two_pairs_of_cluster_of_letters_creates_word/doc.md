@@ -1,0 +1,38 @@
+# Two_pairs_of_cluster_of_letters_creates_word/
+## Start file
+```
+'t', 'wo', 'pa','irs', 'o', 'f','clus','ter', 'o', 'f', 'lett', 'ers', 'crea', 'tes', 'wor','d'
+```
+## End file
+```
+two
+pairs
+of
+cluster
+of
+letters
+creates
+word
+```
+## View Diff
+<details><summary>Click me</summary>
+
+```
+--- Two_pairs_of_cluster_of_letters_creates_word//inp
++++ Two_pairs_of_cluster_of_letters_creates_word//out
+@@ -1 +1,8 @@
+-'t', 'wo', 'pa','irs', 'o', 'f','clus','ter', 'o', 'f', 'lett', 'ers', 'crea', 'tes', 'wor','d'
++two
++pairs
++of
++cluster
++of
++letters
++creates
++word
+```
+</details>
+## Solution
+```sh
+qq2f,a<CR><Esc>q6@q:%s/\W//g<CR>ZZ
+```
