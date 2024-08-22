@@ -1,7 +1,10 @@
 # Training to be a Vim Ninja 🥷
 Challenges: https://www.vimgolf.com/
 
-## Golf tips
+## Personal stats 🎯
+https://www.vimgolf.com/45533/mau-mauricelim
+
+## Golf tips 💡
 1. Use the shortest command name possible. Check the `help` page for commands.
 2. Omit whitespace where possible.
 3. Chain commands with `|` delimiter.
