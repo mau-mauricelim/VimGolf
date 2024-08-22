@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-for CHALLENGE in "$@"
+for CHALLENGE in "${@%/}" # Strips trailing slash
 do
+    NAME="$(basename "$CHALLENGE")"
     DOC="$CHALLENGE/README.md"
     appendToDoc() {
         echo -e "${1}" >> "$DOC"
@@ -10,7 +11,7 @@ do
     }
 
     rm -f "$DOC" && touch "$DOC"
-    appendToDoc "# $CHALLENGE"
+    appendToDoc "# $NAME"
     appendToDoc "## Start file"
     appendToDoc "$(codeBlock "$(cat "$CHALLENGE/inp")")"
     appendToDoc "## End file"
