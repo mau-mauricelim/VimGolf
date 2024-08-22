@@ -25,6 +25,7 @@ The question is, will a wiser vimgolf ninja defeat the purpose of this challenge
  The question is, will a wiser vimgolf ninja defeat the purpose of this challenge ?
 ```
 </details>
+
 ## Solution
 ```sh
 :s/ninja/<CR>j:<Up>/g<CR>ZZ

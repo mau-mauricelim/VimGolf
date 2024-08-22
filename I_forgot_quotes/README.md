@@ -26,6 +26,7 @@ foo = "a"
 +      "abc"
 ```
 </details>
+
 ## Solution
 ```sh
 :%norm A"<C-O>b"<CR>ZZ

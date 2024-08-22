@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 for CHALLENGE in "$@"
 do
-    DOC="$CHALLENGE/doc.md"
+    DOC="$CHALLENGE/README.md"
     appendToDoc() {
         echo -e "${1}" >> "$DOC"
     }
@@ -18,7 +18,7 @@ do
     appendToDoc "## View Diff"
     appendToDoc "<details><summary>Click me</summary>\n"
     appendToDoc "$(codeBlock "$(diff "$CHALLENGE/inp" "$CHALLENGE/out")")"
-    appendToDoc "</details>"
+    appendToDoc "</details>\n"
     appendToDoc "## Solution"
     appendToDoc "$(codeBlock "$(cat "$CHALLENGE/ans")" sh)"
 

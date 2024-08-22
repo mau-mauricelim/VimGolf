@@ -32,6 +32,7 @@ https://website.ls/download/somecomic.cbz
 -not reader
 ```
 </details>
+
 ## Solution
 ```sh
 :g/de/d<CR>ZZ

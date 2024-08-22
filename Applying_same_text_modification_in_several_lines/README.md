@@ -34,6 +34,7 @@ _application.ShowsSniperHasLostAuction();
 +_application.ShowsSniperHasLostAuction();
 ```
 </details>
+
 ## Solution
 ```sh
 :%norm dt_%x<CR>ZZ

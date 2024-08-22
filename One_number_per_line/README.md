@@ -44,6 +44,7 @@
 +29
 ```
 </details>
+
 ## Solution
 ```sh
 :%s/,//g|g!/\d/d<CR>ZZ

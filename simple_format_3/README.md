@@ -54,6 +54,7 @@ ten:10
 +10:        "ten";
 ```
 </details>
+
 ## Solution
 ```sh
 :%ri12|%s/\( \+\)\(.*\):\(.*\)/\3:\1 "\2";<CR>k<C-Q>ggI <Esc>GWi <Esc>ZZ

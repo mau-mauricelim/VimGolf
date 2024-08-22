@@ -36,6 +36,7 @@
 +10
 ```
 </details>
+
 ## Solution
 ```sh
 i1<Esc>Y9pvGg<C-A>ZZ

@@ -47,6 +47,7 @@ I finally found a real abc.
  I finally found a real abc.
 ```
 </details>
+
 ## Solution
 ```sh
 :g/l.$/s/c /cool <CR>ZZ

@@ -47,6 +47,7 @@ This challenge is just a simple movement and entering text at a certain place.
  This challenge is just a simple movement and entering text at a certain place.
 ```
 </details>
+
 ## Solution
 ```sh
 5jYp<C-A>w11<C-A>GONew text.<CR><Esc>ZZ

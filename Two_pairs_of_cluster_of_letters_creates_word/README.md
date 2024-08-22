@@ -32,6 +32,7 @@ word
 +word
 ```
 </details>
+
 ## Solution
 ```sh
 qq2f,a<CR><Esc>q6@q:%s/\W//g<CR>ZZ

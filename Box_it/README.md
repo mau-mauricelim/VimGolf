@@ -22,6 +22,7 @@ My dream is to be in a box
 +###############################
 ```
 </details>
+
 ## Solution
 ```sh
 fia<BS>wa<Esc>I# <Esc>A #<Esc>YpVr#YkPZZ
