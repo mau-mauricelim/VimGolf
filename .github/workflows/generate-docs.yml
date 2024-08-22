@@ -1,7 +1,7 @@
 name: Generate docs for challenges
 
 on:
-  workflow_dispatch:
+  push:
 
 jobs:
   generate:
