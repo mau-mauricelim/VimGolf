@@ -1,4 +1,4 @@
-# Words_in_parens/
+# Words_in_parens
 ## Start file
 ```
 one two

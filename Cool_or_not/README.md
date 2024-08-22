@@ -1,4 +1,4 @@
-# Cool_or_not/
+# Cool_or_not
 ## Start file
 ```
 This is abc.

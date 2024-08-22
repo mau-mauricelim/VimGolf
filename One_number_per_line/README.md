@@ -1,4 +1,4 @@
-# One_number_per_line/
+# One_number_per_line
 ## Start file
 ```
 - One number per line -

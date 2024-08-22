@@ -1,4 +1,4 @@
-# Two_pairs_of_cluster_of_letters_creates_word/
+# Two_pairs_of_cluster_of_letters_creates_word
 ## Start file
 ```
 't', 'wo', 'pa','irs', 'o', 'f','clus','ter', 'o', 'f', 'lett', 'ers', 'crea', 'tes', 'wor','d'

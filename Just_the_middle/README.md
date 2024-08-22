@@ -1,4 +1,4 @@
-# Just_the_middle/
+# Just_the_middle
 ## Start file
 ```
 Leave only the

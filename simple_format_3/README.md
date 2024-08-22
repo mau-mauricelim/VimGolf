@@ -1,4 +1,4 @@
-# simple_format_3/
+# simple_format_3
 ## Start file
 ```
 one:1

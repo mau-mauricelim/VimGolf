@@ -1,4 +1,4 @@
-# ninja_substitution/
+# ninja_substitution
 ## Start file
 ```
 Trying to careninjafully make a ninja challenge.

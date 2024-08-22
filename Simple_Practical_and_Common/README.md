@@ -1,4 +1,4 @@
-# Simple_Practical_and_Common/
+# Simple_Practical_and_Common
 ## Start file
 ```
 *temp var1 0

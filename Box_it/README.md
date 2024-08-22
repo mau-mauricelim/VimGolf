@@ -1,4 +1,4 @@
-# Box_it/
+# Box_it
 ## Start file
 ```
 My dream is to be in a box

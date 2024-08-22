@@ -1,4 +1,4 @@
-# I_forgot_quotes/
+# I_forgot_quotes
 ## Start file
 ```
 foo = a

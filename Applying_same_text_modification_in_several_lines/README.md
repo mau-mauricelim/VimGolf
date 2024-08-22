@@ -1,4 +1,4 @@
-# Applying_same_text_modification_in_several_lines/
+# Applying_same_text_modification_in_several_lines
 ## Start file
 ```
 Assert.ThrowsAsync<Exception>(() => _auction.StartSellingItem());

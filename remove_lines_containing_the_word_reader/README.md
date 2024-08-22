@@ -1,4 +1,4 @@
-# remove_lines_containing_the_word_reader/
+# remove_lines_containing_the_word_reader
 ## Start file
 ```
 aklfdjwi37u8rifa a8fdiy 8837r asfyf3y reader

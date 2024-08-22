@@ -1,4 +1,4 @@
-# One_to_Ten/
+# One_to_Ten
 ## Start file
 ```
 
