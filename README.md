@@ -9,6 +9,7 @@ https://www.vimgolf.com/45533/mau-mauricelim
 2. Omit whitespace where possible.
 3. Chain commands with `|` delimiter.
 4. Use capital letter motion instead of double letter. E.g. Replace `yy` with `Y`.
-5. Use `ZZ` to quit vim instead of `:x<CR>` or `:wq<CR>`.
+5. `H` goes all the way up vertically and `L` goes all the way down horizontally.
+6. Use `ZZ` to quit vim instead of `:x<CR>` or `:wq<CR>`.
 
 Happy golfing! ⛳
