@@ -1,14 +1,14 @@
 name: Generate docs for challenges
 
 on:
-  push:
+  workflow_dispatch:
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      uses: actions/checkout@v4
       name: Generate docs for challenges
+      uses: actions/checkout@v4
       run: |
         bash genDoc.sh */
         git config --global user.name 'github-actions[bot]'
