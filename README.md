@@ -21,6 +21,7 @@ https://www.vimgolf.com/45533/mau-mauricelim
 |[simple format (3)](https://www.vimgolf.com/challenges/5bff6e560d5dc0000ca3485b)|86|34|57|#20 / 24|[4](https://www.vimgolf.com/challenges/5bff6e560d5dc0000ca3485b/user/mau-mauricelim)|
 |[I forgot quotes](https://www.vimgolf.com/challenges/5462e3f41198b80002512673)|15951|10|15|#2383 / 4169|[3](https://www.vimgolf.com/challenges/5462e3f41198b80002512673/user/mau-mauricelim)|
 |[Words in parens](https://www.vimgolf.com/challenges/5192f96ad8df110002000002)|12886|13|14|#1175 / 3954|[5](https://www.vimgolf.com/challenges/5192f96ad8df110002000002/user/mau-mauricelim)|
+
 ## Bonus challenge to get personal stats in a table format
 [Played Challenges](Played_Challenges/README.md)
 
