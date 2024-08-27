@@ -18,24 +18,23 @@
 ```
 ## View Diff
 <details><summary>Click me</summary>
-
 ```
-1c1,10
-< 
----
-> 1
-> 2
-> 3
-> 4
-> 5
-> 6
-> 7
-> 8
-> 9
-> 10
+--- One_to_Ten/inp
++++ One_to_Ten/out
+@@ -1 +1,10 @@
+-
++1
++2
++3
++4
++5
++6
++7
++8
++9
++10
 ```
 </details>
-
 ## Solution
 ```sh
 i1<Esc>Y9pvGg<C-A>ZZ

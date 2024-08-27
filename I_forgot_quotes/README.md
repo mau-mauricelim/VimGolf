@@ -13,19 +13,18 @@ foo = "a"
 ```
 ## View Diff
 <details><summary>Click me</summary>
-
 ```
-1,3c1,3
-< foo = a
-<       ab
-<       abc
----
-> foo = "a"
->       "ab"
->       "abc"
+--- I_forgot_quotes/inp
++++ I_forgot_quotes/out
+@@ -1,3 +1,3 @@
+-foo = a
+-      ab
+-      abc
++foo = "a"
++      "ab"
++      "abc"
 ```
 </details>
-
 ## Solution
 ```sh
 :%norm A"<C-O>b"<CR>ZZ
