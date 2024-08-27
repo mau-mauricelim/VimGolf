@@ -10,3 +10,4 @@ out=$(echo "$stats" |\
 { echo -e "Played Challenges|Entries|Best score|Best player score|Position|Number of attempts\n-|-|-|-|-|-"; echo "$out"; } > "$CHALLENGE/out"
 sed -i 's/\(.*\)/|\1|/' "$CHALLENGE/out"
 cat "$CHALLENGE/out"
+
