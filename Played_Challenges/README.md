@@ -16,7 +16,7 @@
 <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="JfWVZYclLq9RzTkuQ06P7PJsE5z/+vH6b+MnhfkULDqZon8jUKWDmExhmaM+UvxtKaqJhzCC1JTAIYv4SoqD+Q==" />
+<meta name="csrf-token" content="FfmoaKHrgnKbhiCGibbyZhMFJz8J8TO+/DQmF0docblR90JmyZymlS3LEn51sRjsg7eV3v66WG6yFxcUu14+Sw==" />
 </head>
 <body onload="prettyPrint()">
 <div id="header" class="container_12 clearfix">
@@ -325,7 +325,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 -<script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 -<link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 -<meta name="csrf-param" content="authenticity_token" />
--<meta name="csrf-token" content="JfWVZYclLq9RzTkuQ06P7PJsE5z/+vH6b+MnhfkULDqZon8jUKWDmExhmaM+UvxtKaqJhzCC1JTAIYv4SoqD+Q==" />
+-<meta name="csrf-token" content="FfmoaKHrgnKbhiCGibbyZhMFJz8J8TO+/DQmF0docblR90JmyZymlS3LEn51sRjsg7eV3v66WG6yFxcUu14+Sw==" />
 -</head>
 -<body onload="prettyPrint()">
 -<div id="header" class="container_12 clearfix">
@@ -620,7 +620,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 ggOPlayed Challenges|Entries|Best score|Best player score|Position|Number of attempts<CR>-|-|-|-|-|-<Esc>
 :%s/\(.*\)/|\1|<CR>ZZ
 ```
-Played Challenges 🌟
+## Played Challenges 🌟
 |Played Challenges|Entries|Best score|Best player score|Position|Number of attempts|
 |-|-|-|-|-|-|
 |[Simple, Practical, and Common](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001)|33507|22|24|#3111 / 7394|[3](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim)|
