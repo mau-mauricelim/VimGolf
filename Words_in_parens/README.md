@@ -13,12 +13,13 @@ three
 <details><summary>Click me</summary>
 
 ```
-1,2c1,2
-< one two
-< three
----
-> (one) (two)
-> (three)
+--- Words_in_parens/inp
++++ Words_in_parens/out
+@@ -1,2 +1,2 @@
+-one two
+-three
++(one) (two)
++(three)
 ```
 </details>
 
