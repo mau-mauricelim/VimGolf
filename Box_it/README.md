@@ -13,13 +13,12 @@ My dream is to be in a box
 <details><summary>Click me</summary>
 
 ```
---- Box_it/inp
-+++ Box_it/out
-@@ -1 +1,3 @@
--My dream is to be in a box
-+###############################
-+# My dream was to be in a box #
-+###############################
+1c1,3
+< My dream is to be in a box
+---
+> ###############################
+> # My dream was to be in a box #
+> ###############################
 ```
 </details>
 
