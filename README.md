@@ -19,6 +19,8 @@ https://www.vimgolf.com/45533/mau-mauricelim
     4. Copy the macro into the desired register using `"qyy` (where `q` is the desired register here).
 8. Note that golfing challenges and real world applications are different.
 9. Learn from others' solutions and try to understand the logic behind the solution.
+10. ``` `` ``` moves cursor back to previous position.
+11. Use `<num>G` to jump to line.
 
 ## Vim motions
 |      |Left  |Middle|Right  |
