@@ -14,9 +14,8 @@ jobs:
         run: |
           bash genDoc.sh */
           bash getStats.sh
-          { echo "## Played Challenges 🌟"; cat Played_Challenges/out } >> Played_Challenges/README.md
+          { echo "## Played Challenges 🌟"; cat Played_Challenges/out; } >> Played_Challenges/README.md
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git commit -am 'Automated generation of docs for challenges'
           git push
-
