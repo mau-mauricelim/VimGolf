@@ -19,9 +19,11 @@ do
     appendToDoc "## End file"
     appendToDoc "$(codeBlock "$(cat "$CHALLENGE/out")")"
     appendToDoc "## View Diff"
-    appendToDoc "$(echo -e "<details><summary>Click me</summary>\n")"
+    appendToDoc "<details><summary>Click me</summary>"
+    appendToDoc ""
     appendToDoc "$(codeBlock "$(diff "$CHALLENGE/inp" "$CHALLENGE/out")")"
-    appendToDoc "$(echo -e "</details>\n")"
+    appendToDoc "</details>"
+    appendToDoc ""
     appendToDoc "## Solution"
     appendToDoc "$(codeBlock "$(cat "$CHALLENGE/ans")" sh)"
 
