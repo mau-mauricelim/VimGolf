@@ -9,10 +9,11 @@ out=$(echo "$stats" |\
         /^<\/h/,/^<ul/d ;\
         /^<\/u/,/^<h/d ;\
         s/"/"https:\/\/www.vimgolf.com/ ;\
-        s/^<a.*"\(.*\)">\(.*\)<.* \(\d\+\).*/[\2](\1)|\3/ ;\
-        s/<a.*"\(.*\)">\(\d\+\).*a>/[\2](\1)/ ;\
+        s/^<a.*"\(.*\)">\(.*\)<.* \(\d\+\).*/\[\2](\1)|\3/ ;\
+        s/<a.*"\(.*\)">\(\d\+\).*a>/\[\2](\1)/ ;\
         s/^<.*<b>\(.*\)<\/b.*/\1/' |\
     paste -d"|" - - - - -)
 
 { echo -e "Played Challenges|Entries|Best score|Best player score|Position|Number of attempts\n-|-|-|-|-|-"; echo "$out"; } > "$CHALLENGE/out"
 sed -i 's/\(.*\)/|\1|/' "$CHALLENGE/out"
+cat "$CHALLENGE/out"
