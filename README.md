@@ -6,7 +6,7 @@ Challenges: https://www.vimgolf.com/
 https://www.vimgolf.com/45533/mau-mauricelim
 
 ## Bonus challenge to get personal stats in a table format
-[Played Challenges](Played_Challenges/out)
+[Played Challenges](Played_Challenges/README.md)
 
 ## Golf tips 💡
 1. Use the shortest command name possible. Check the `help` page for commands.

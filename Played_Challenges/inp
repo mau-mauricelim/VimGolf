@@ -13,7 +13,7 @@
 <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="KNMd0dSfzSALdckbbK83VIWMay5Vvpyz80f/2s7qTgtRoWiffIqNK6VrIn5BDPAjbeKOZrgo07EMQRi4EAiGJg==" />
+<meta name="csrf-token" content="ckg8re9ZH1WMO7nRVl9uPnualbB1AAxt9b8CGfruCRHe76WPjECgJ9jNieZgDyebhjaCidla+ZoETreJkwaPmQ==" />
 </head>
 <body onload="prettyPrint()">
 <div id="header" class="container_12 clearfix">
@@ -48,7 +48,7 @@
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/55b18bbea9c2c30d04000001">Simple, Practical, and Common</a> - 33505 entries
+<a href="/challenges/55b18bbea9c2c30d04000001">Simple, Practical, and Common</a> - 33507 entries
 </h5>
 <p>Simple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I need to do makes me go, &quot;There MUST be a better way.&quot;
 This challenge is just a simple movement and entering text at a certain place.</p>
@@ -56,7 +56,7 @@ This challenge is just a simple movement and entering text at a certain place.</
 <ul>
 <li>Best score: <b>22</b></li>
 <li>Best player score: <b>24</b></li>
-<li>Position: <b>#3111 / 7393</b></li>
+<li>Position: <b>#3111 / 7394</b></li>
 <li>Number of attempts: <b><a href="/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
@@ -105,14 +105,14 @@ This challenge is just a simple movement and entering text at a certain place.</
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/5ba020f91abf2d000951055c">Com(m)a Trouble</a> - 3758 entries
+<a href="/challenges/5ba020f91abf2d000951055c">Com(m)a Trouble</a> - 3759 entries
 </h5>
 <p>Someone was real stupid when placing his commas. Can you fix it?</p>
 </div>
 <ul>
 <li>Best score: <b>12</b></li>
 <li>Best player score: <b>15</b></li>
-<li>Position: <b>#445 / 849</b></li>
+<li>Position: <b>#446 / 850</b></li>
 <li>Number of attempts: <b><a href="/challenges/5ba020f91abf2d000951055c/user/mau-mauricelim">4</a></b></li>
 </ul>
 </div>
