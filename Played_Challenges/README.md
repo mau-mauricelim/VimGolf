@@ -16,7 +16,7 @@
 <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="47M26jo6ArAvMCFFV5yuGLqo+KE8kQEksm7xWeboUM/crPbZBXI7PP+f/xTPSrGUOIgRt1V73BqcqGvDPq37fA==" />
+<meta name="csrf-token" content="uTJKqfl79JnWTMSmmtlMyhxagR4EL7os2HE5dtJBoTUh7HfDuq2mbr4sXCE7W9CIMoGzWIRDvC9KnPXznH0Avw==" />
 </head>
 <body onload="prettyPrint()">
 <div id="header" class="container_12 clearfix">
@@ -323,7 +323,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 < <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 < <meta name="csrf-param" content="authenticity_token" />
-< <meta name="csrf-token" content="47M26jo6ArAvMCFFV5yuGLqo+KE8kQEksm7xWeboUM/crPbZBXI7PP+f/xTPSrGUOIgRt1V73BqcqGvDPq37fA==" />
+< <meta name="csrf-token" content="uTJKqfl79JnWTMSmmtlMyhxagR4EL7os2HE5dtJBoTUh7HfDuq2mbr4sXCE7W9CIMoGzWIRDvC9KnPXznH0Avw==" />
 < </head>
 < <body onload="prettyPrint()">
 < <div id="header" class="container_12 clearfix">
@@ -619,20 +619,3 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 ggOPlayed Challenges|Entries|Best score|Best player score|Position|Number of attempts<CR>-|-|-|-|-|-<Esc>
 :%s/\(.*\)/|\1|<CR>ZZ
 ```
-## Played Challenges 🌟
-|Played Challenges|Entries|Best score|Best player score|Position|Number of attempts|
-|-|-|-|-|-|-|
-|[Simple, Practical, and Common](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001)|33507|22|24|#3111 / 7394|[3](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim)|
-|[One number per line](https://www.vimgolf.com/challenges/56fb2e75ccffcc0009026473)|18678|14|21|#2579 / 3854|[3](https://www.vimgolf.com/challenges/56fb2e75ccffcc0009026473/user/mau-mauricelim)|
-|[Applying same text modification in several lines](https://www.vimgolf.com/challenges/5bbb82f969a25f0009541350)|2855|12|15|#539 / 844|[4](https://www.vimgolf.com/challenges/5bbb82f969a25f0009541350/user/mau-mauricelim)|
-|[remove lines containing the word &quot;reader&quot;](https://www.vimgolf.com/challenges/5c264e64e8c64916d7fca650)|3568|9|10|#857 / 1155|[2](https://www.vimgolf.com/challenges/5c264e64e8c64916d7fca650/user/mau-mauricelim)|
-|[Com(m)a Trouble](https://www.vimgolf.com/challenges/5ba020f91abf2d000951055c)|3759|12|15|#446 / 850|[4](https://www.vimgolf.com/challenges/5ba020f91abf2d000951055c/user/mau-mauricelim)|
-|[Box it](https://www.vimgolf.com/challenges/5c742a5a50bdf70006d43280)|7897|21|25|#1043 / 1872|[5](https://www.vimgolf.com/challenges/5c742a5a50bdf70006d43280/user/mau-mauricelim)|
-|[Cool or not?](https://www.vimgolf.com/challenges/5c82a157c82f3900064c82d7)|829|15|20|#166 / 230|[2](https://www.vimgolf.com/challenges/5c82a157c82f3900064c82d7/user/mau-mauricelim)|
-|[Two pairs of cluster of letters creates word](https://www.vimgolf.com/challenges/5c93945c9caf21000ca842f7)|749|17|24|#142 / 178|[2](https://www.vimgolf.com/challenges/5c93945c9caf21000ca842f7/user/mau-mauricelim)|
-|[Just the middle](https://www.vimgolf.com/challenges/54862fbb3f90ac0002904cf5)|11386|7|8|#3199 / 4177|[3](https://www.vimgolf.com/challenges/54862fbb3f90ac0002904cf5/user/mau-mauricelim)|
-|[ninja substitution](https://www.vimgolf.com/challenges/5cb9d07d716c1b0009f69a40)|1420|14|18|#193 / 267|[2](https://www.vimgolf.com/challenges/5cb9d07d716c1b0009f69a40/user/mau-mauricelim)|
-|[One to Ten](https://www.vimgolf.com/challenges/5c4d042acfafb4000c9f06c2)|2201|12|12|#365 / 667|[1](https://www.vimgolf.com/challenges/5c4d042acfafb4000c9f06c2/user/mau-mauricelim)|
-|[simple format (3)](https://www.vimgolf.com/challenges/5bff6e560d5dc0000ca3485b)|86|34|57|#20 / 24|[4](https://www.vimgolf.com/challenges/5bff6e560d5dc0000ca3485b/user/mau-mauricelim)|
-|[I forgot quotes](https://www.vimgolf.com/challenges/5462e3f41198b80002512673)|15950|10|15|#2382 / 4168|[3](https://www.vimgolf.com/challenges/5462e3f41198b80002512673/user/mau-mauricelim)|
-|[Words in parens](https://www.vimgolf.com/challenges/5192f96ad8df110002000002)|12886|13|14|#1175 / 3954|[5](https://www.vimgolf.com/challenges/5192f96ad8df110002000002/user/mau-mauricelim)|
