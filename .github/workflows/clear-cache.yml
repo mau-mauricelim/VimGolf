@@ -1,0 +1,23 @@
+name: Clear cache
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Run at 00:00 on the 1st day of every month
+    - cron: '0 0 1 * *'
+
+env:
+  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v4
+      -
+        name: Cleanup
+        run: |
+          gh extension install actions/gh-actions-cache
+          [ -z "$(gh cache list)" ] || gh cache delete --all
