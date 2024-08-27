@@ -13,7 +13,7 @@
 <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="mA+rNOCfUL2eGbtEXZpdEY/oR276/IM8a7HeaKKyXV83059MIsh00MAX1l7ofwyEXcHFh4EgVQu/tl/+1BuQww==" />
+<meta name="csrf-token" content="V2eT4rRNvMltH2MZLiqJ+L5YB3O8VXGpmgB1OhBqv3zmSRSoG+oYxGW938L6Rvw6akopgOysYXiJtV0/qsoM/Q==" />
 </head>
 <body onload="prettyPrint()">
 <div id="header" class="container_12 clearfix">
@@ -105,7 +105,7 @@ This challenge is just a simple movement and entering text at a certain place.</
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/5ba020f91abf2d000951055c">Com(m)a Trouble</a> - 3757 entries
+<a href="/challenges/5ba020f91abf2d000951055c">Com(m)a Trouble</a> - 3758 entries
 </h5>
 <p>Someone was real stupid when placing his commas. Can you fix it?</p>
 </div>
