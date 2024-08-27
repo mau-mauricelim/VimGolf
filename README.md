@@ -22,7 +22,7 @@ https://www.vimgolf.com/45533/mau-mauricelim
 |[I forgot quotes](https://www.vimgolf.com/challenges/5462e3f41198b80002512673)|15951|10|15|#2383 / 4169|[3](https://www.vimgolf.com/challenges/5462e3f41198b80002512673/user/mau-mauricelim)|
 |[Words in parens](https://www.vimgolf.com/challenges/5192f96ad8df110002000002)|12886|13|14|#1175 / 3954|[5](https://www.vimgolf.com/challenges/5192f96ad8df110002000002/user/mau-mauricelim)|
 
-## Bonus challenge to get personal stats in a table format
+## Bonus challenge to get personal stats in a table format 𝄜
 [Played Challenges](Played_Challenges/README.md)
 
 ## Golf tips 💡
@@ -42,14 +42,14 @@ https://www.vimgolf.com/45533/mau-mauricelim
 10. ``` `` ``` moves cursor back to previous position.
 11. Use `<num>G` to jump to line.
 
-## Vim motions
+## Vim motions ⚡
 |      |Left  |Middle|Right  |
 |------|------|------|-------|
 |Top   |gg    |H     |       |
 |Middle|0 / ^ |M     |g_ / $ |
 |Bottom|G     |L     |       |
 
-## Sanitize challenge name
+## Sanitize challenge name 🧼
 ```q
 q)sanitize:{"_"sv("_"vs?[x in .Q.an;x;"_"])except enlist""}
 q)sanitize"Harder than \"abcd > a b c d\""
