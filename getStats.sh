@@ -14,5 +14,5 @@ out=$(echo "$stats" |\
         s/^<.*<b>\(.*\)<\/b.*/\1/' |\
     paste -d"|" - - - - -)
 
-{ echo -e "Played Challenges|Entries|Best score|Best player score|Position|Number of attempts\n-|-|-|-|-|-"; echo $out; } > "$CHALLENGE/out"
+{ echo -e "Played Challenges|Entries|Best score|Best player score|Position|Number of attempts\n-|-|-|-|-|-"; echo "$out"; } > "$CHALLENGE/out"
 sed -i 's/\(.*\)/|\1|/' "$CHALLENGE/out"
