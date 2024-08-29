@@ -26,7 +26,7 @@ https://www.vimgolf.com/45533/mau-mauricelim
 - Get personal stats of your [Played Challenges](Played_Challenges/README.md#end-file) in a markdown table format
 - KdbGolf - useful for parsing files
 
-## Golf tips 💡
+## VimGolf tips 💡
 1. Use the shortest command name possible. Check the `help` page for commands.
 2. Omit whitespace where possible.
 3. Chain commands with `|` delimiter.
@@ -38,10 +38,14 @@ https://www.vimgolf.com/45533/mau-mauricelim
     2. Assuming the macro is in register `q`, paste the content of register `q` into the buffer using `:pu q`.
     3. Inspect and modify the line.
     4. Copy the macro into the desired register using `"qyy` (where `q` is the desired register here).
-8. Note that golfing challenges and real world applications are different.
-9. Learn from others' solutions and try to understand the logic behind the solution.
-10. ``` `` ``` moves cursor back to previous position.
-11. Use `<num>G` to jump to line.
+8. Learn from others' solutions and try to understand the logic behind the solution.
+9. ``` `` ``` moves cursor back to previous position.
+10. Use `<num>G` to jump to line.
+
+## KdbGolf tips 💡
+1. [We Don't Need No Stinkin’ Brackets](https://code.kx.com/q4m3/6_Functions/#615-we-dont-need-no-stinkin-brackets)
+
+> NOTE: Golfing challenges and real world applications are different.
 
 ## Vim motions ⚡
 |      |Left  |Middle|Right  |
