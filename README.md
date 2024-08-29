@@ -22,8 +22,9 @@ https://www.vimgolf.com/45533/mau-mauricelim
 |[I forgot quotes](https://www.vimgolf.com/challenges/5462e3f41198b80002512673)|15951|10|15|#2383 / 4169|[3](https://www.vimgolf.com/challenges/5462e3f41198b80002512673/user/mau-mauricelim)|
 |[Words in parens](https://www.vimgolf.com/challenges/5192f96ad8df110002000002)|12886|13|14|#1175 / 3954|[5](https://www.vimgolf.com/challenges/5192f96ad8df110002000002/user/mau-mauricelim)|
 
-## Bonus challenge to get personal stats in a table format 𝄜
-[Played Challenges](Played_Challenges/README.md)
+## Bonus challenges 🎁
+- Get personal stats of your [Played Challenges](Played_Challenges/README.md#end-file) in a markdown table format
+- KdbGolf - useful for parsing files
 
 ## Golf tips 💡
 1. Use the shortest command name possible. Check the `help` page for commands.
