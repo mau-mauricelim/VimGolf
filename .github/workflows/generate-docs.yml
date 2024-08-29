@@ -19,9 +19,7 @@ jobs:
           { sed '/45533/q' README.md; echo; cat Played_Challenges/out; echo; grep 'Bonus challenge' README.md; sed '1,/Bonus challenge/d' README.md; } > /tmp/README.md && mv /tmp/README.md .
       - name: Generate compiled markdown eBook
         run: |
-          echo -e "# VimGolf\n## Table of contents" > EBOOK.md
-          ls -d */|awk '{ print "- ["$1"](#"$1")" }' >> EBOOK.md
-          cat */README.md >> EBOOK.md
+          { echo -e "# VimGolf\n## Table of contents"; ls -d */|awk '{ print "- ["tolower($1)"](#"tolower($1)")" }'|sed 's/\///g'; cat */README.md; } > EBOOK.md
       - name: Add, commit and push
         run: |
           git config --global user.name 'github-actions[bot]'
