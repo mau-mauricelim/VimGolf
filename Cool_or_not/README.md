@@ -48,5 +48,5 @@ I finally found a real abc.
 ```
 ## KdbGolf Solution
 ```q
-
+`:out 0:?[i like"*l.";ssr[;"c ";"cool "]@'i;i:read0`:inp]
 ```

@@ -28,5 +28,5 @@ fia<BS>wa<Esc>I# <Esc>A #<Esc>YpVr#YkPZZ
 ```
 ## KdbGolf Solution
 ```q
-
+`:out 0:{(c;s;c:count[s:"# ",ssr[x;"is";"was"]," #"]#"#")}read0[`:inp]0
 ```
