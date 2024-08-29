@@ -42,5 +42,5 @@ i1<Esc>Y9pvGg<C-A>ZZ
 ```
 ## KdbGolf Solution
 ```q
-
+`:out 0:string 1+til 10
 ```

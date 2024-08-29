@@ -38,5 +38,5 @@ qq2f,a<CR><Esc>q6@q:%s/\W//g<CR>ZZ
 ```
 ## KdbGolf Solution
 ```q
-
+`:out 0:raze@'2 cut","vs except[;" '"]read0[`:inp]0
 ```

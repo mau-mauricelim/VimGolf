@@ -30,5 +30,5 @@ The question is, will a wiser vimgolf ninja defeat the purpose of this challenge
 ```
 ## KdbGolf Solution
 ```q
-
+`:out 0:@/[read0`:inp;0 1;{ssr[y;"ninja",x;"",x]}@'("";"f")]
 ```

@@ -37,5 +37,5 @@ https://website.ls/download/somecomic.cbz
 ```
 ## KdbGolf Solution
 ```q
-
+`:out 0:i where not(i:read0`:inp)like"*de*"
 ```

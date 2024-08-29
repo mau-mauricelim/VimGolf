@@ -60,5 +60,5 @@ ten:10
 ```
 ## KdbGolf Solution
 ```q
-
+`:out 0:{raze@/[":"vs x;i;({-3#" ",x,":"};{-14#(8#""),"\"",x,"\";"})]i:1 0}@'read0`:inp
 ```

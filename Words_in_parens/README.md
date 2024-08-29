@@ -28,5 +28,5 @@ qqce()<Esc>PWq2@qZZ
 ```
 ## KdbGolf Solution
 ```q
-
+`:out 0:{" "sv{"(",x,")"}@'" "vs x}@'read0`:inp
 ```
