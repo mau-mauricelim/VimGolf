@@ -24,8 +24,10 @@ do
     appendToDoc "$(codeBlock "$(diff "$CHALLENGE/inp" "$CHALLENGE/out")")"
     appendToDoc "</details>"
     appendToDoc ""
-    appendToDoc "## Solution"
+    appendToDoc "## VimGolf Solution"
     appendToDoc "$(codeBlock "$(cat "$CHALLENGE/ans")" sh)"
+    appendToDoc "## KdbGolf Solution"
+    appendToDoc "$(codeBlock "$(cat "$CHALLENGE/ans.q")" q)"
 
     echo "Written doc file to: $DOC"
 done
