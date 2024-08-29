@@ -13,9 +13,17 @@ jobs:
       - name: Generate docs for challenges
         run: |
           bash genDoc.sh */
+      - name: Generate personal stats
+        run: |
           bash getStats.sh
           { sed '/45533/q' README.md; echo; cat Played_Challenges/out; echo; grep 'Bonus challenge' README.md; sed '1,/Bonus challenge/d' README.md; } > /tmp/README.md && mv /tmp/README.md .
-          cat */README.md > EBOOK.md
+      - name: Generate compiled markdown eBook
+        run: |
+          echo -e "# VimGolf\n## Table of contents" > EBOOK.md
+          ls -d */|awk '{ print "- ["$1"](#"$1")" }' >> EBOOK.md
+          cat */README.md >> EBOOK.md
+      - name: Add, commit and push
+        run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git commit -am 'Automated generation of docs for challenges'
