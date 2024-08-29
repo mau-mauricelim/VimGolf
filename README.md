@@ -63,4 +63,5 @@ q)sanitize"대법원 인명용 한자 바인딩(Combine Hangul and Chinese chara
 "Combine_Hangul_and_Chinese_characters"
 ```
 
-### Happy golfing! ⛳
+## Happy golfing! ⛳
+A compiled markdown [eBook](EBOOK.md) is available! 📖

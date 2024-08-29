@@ -16,6 +16,7 @@ jobs:
           bash genDoc.sh */
           bash getStats.sh
           { sed '/45533/q' README.md; echo; cat Played_Challenges/out; echo; grep 'Bonus challenge' README.md; sed '1,/Bonus challenge/d' README.md; } > /tmp/README.md && mv /tmp/README.md .
+          cat */README.md > EBOOK.md
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git commit -am 'Automated generation of docs for challenges'
