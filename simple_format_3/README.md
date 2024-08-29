@@ -54,7 +54,11 @@ ten:10
 ```
 </details>
 
-## Solution
+## VimGolf Solution
 ```sh
 :%ri12|%s/\( \+\)\(.*\):\(.*\)/\3:\1 "\2";<CR>k<C-Q>ggI <Esc>GWi <Esc>ZZ
+```
+## KdbGolf Solution
+```q
+
 ```

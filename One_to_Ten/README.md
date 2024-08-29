@@ -36,7 +36,11 @@
 ```
 </details>
 
-## Solution
+## VimGolf Solution
 ```sh
 i1<Esc>Y9pvGg<C-A>ZZ
+```
+## KdbGolf Solution
+```q
+
 ```

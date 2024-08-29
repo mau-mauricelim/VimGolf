@@ -42,7 +42,11 @@ I finally found a real abc.
 ```
 </details>
 
-## Solution
+## VimGolf Solution
 ```sh
 :g/l.$/s/c /cool <CR>ZZ
+```
+## KdbGolf Solution
+```q
+
 ```

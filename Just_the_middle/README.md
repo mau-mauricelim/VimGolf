@@ -30,7 +30,11 @@ LINE 3
 ```
 </details>
 
-## Solution
+## VimGolf Solution
 ```sh
 2D3jdGZZ
+```
+## KdbGolf Solution
+```q
+
 ```

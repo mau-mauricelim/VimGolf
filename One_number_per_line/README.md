@@ -44,7 +44,11 @@
 ```
 </details>
 
-## Solution
+## VimGolf Solution
 ```sh
 :%s/,/\r/g|g!/\d/d<CR>ZZ
+```
+## KdbGolf Solution
+```q
+
 ```

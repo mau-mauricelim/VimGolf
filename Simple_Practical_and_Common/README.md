@@ -40,7 +40,11 @@ This challenge is just a simple movement and entering text at a certain place.
 ```
 </details>
 
-## Solution
+## VimGolf Solution
 ```sh
 5jYp<C-A>w11<C-A>GONew text.<CR><Esc>ZZ
+```
+## KdbGolf Solution
+```q
+
 ```

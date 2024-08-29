@@ -31,7 +31,11 @@ https://website.ls/download/somecomic.cbz
 ```
 </details>
 
-## Solution
+## VimGolf Solution
 ```sh
 :g/de/d<CR>ZZ
+```
+## KdbGolf Solution
+```q
+
 ```

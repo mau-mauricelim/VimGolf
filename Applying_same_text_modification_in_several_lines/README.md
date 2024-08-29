@@ -34,7 +34,11 @@ _application.ShowsSniperHasLostAuction();
 ```
 </details>
 
-## Solution
+## VimGolf Solution
 ```sh
 :%norm dt_%x<CR>ZZ
+```
+## KdbGolf Solution
+```q
+`:out 0:{ssr[36_x;"))";")"]}'[read0`:inp]
 ```

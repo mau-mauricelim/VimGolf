@@ -32,7 +32,11 @@ word
 ```
 </details>
 
-## Solution
+## VimGolf Solution
 ```sh
 qq2f,a<CR><Esc>q6@q:%s/\W//g<CR>ZZ
+```
+## KdbGolf Solution
+```q
+
 ```

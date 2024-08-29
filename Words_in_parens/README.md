@@ -22,7 +22,11 @@ three
 ```
 </details>
 
-## Solution
+## VimGolf Solution
 ```sh
 qqce()<Esc>PWq2@qZZ
+```
+## KdbGolf Solution
+```q
+
 ```

@@ -26,7 +26,11 @@ foo = "a"
 ```
 </details>
 
-## Solution
+## VimGolf Solution
 ```sh
 :%norm A"<C-O>b"<CR>ZZ
+```
+## KdbGolf Solution
+```q
+
 ```
