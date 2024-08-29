@@ -1,20 +1,20 @@
 # VimGolf
 ## Table of contents
-- [Applying_same_text_modification_in_several_lines/](#Applying_same_text_modification_in_several_lines/)
-- [Box_it/](#Box_it/)
-- [Com_m_a_Trouble/](#Com_m_a_Trouble/)
-- [Cool_or_not/](#Cool_or_not/)
-- [I_forgot_quotes/](#I_forgot_quotes/)
-- [Just_the_middle/](#Just_the_middle/)
-- [One_number_per_line/](#One_number_per_line/)
-- [One_to_Ten/](#One_to_Ten/)
-- [Played_Challenges/](#Played_Challenges/)
-- [Simple_Practical_and_Common/](#Simple_Practical_and_Common/)
-- [Two_pairs_of_cluster_of_letters_creates_word/](#Two_pairs_of_cluster_of_letters_creates_word/)
-- [Words_in_parens/](#Words_in_parens/)
-- [ninja_substitution/](#ninja_substitution/)
-- [remove_lines_containing_the_word_reader/](#remove_lines_containing_the_word_reader/)
-- [simple_format_3/](#simple_format_3/)
+- [applying_same_text_modification_in_several_lines](#applying_same_text_modification_in_several_lines)
+- [box_it](#box_it)
+- [com_m_a_trouble](#com_m_a_trouble)
+- [cool_or_not](#cool_or_not)
+- [i_forgot_quotes](#i_forgot_quotes)
+- [just_the_middle](#just_the_middle)
+- [one_number_per_line](#one_number_per_line)
+- [one_to_ten](#one_to_ten)
+- [played_challenges](#played_challenges)
+- [simple_practical_and_common](#simple_practical_and_common)
+- [two_pairs_of_cluster_of_letters_creates_word](#two_pairs_of_cluster_of_letters_creates_word)
+- [words_in_parens](#words_in_parens)
+- [ninja_substitution](#ninja_substitution)
+- [remove_lines_containing_the_word_reader](#remove_lines_containing_the_word_reader)
+- [simple_format_3](#simple_format_3)
 # Applying_same_text_modification_in_several_lines
 ## Start file
 ```
@@ -401,7 +401,7 @@ i1<Esc>Y9pvGg<C-A>ZZ
 <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="AAorLRDGTfZLn19gxyh67ZPatcL2EnYIzWZOTiR+e10yTX+3EbBPwCT4Z8hwTTnrM3yyyYOVpH+GPLdprx2EsA==" />
+<meta name="csrf-token" content="ximiZz0uGCNno7SnN/U4pUsRbyeGqs3r/q5+oP1gldVot3OE448P2LnDr+csWWTl844/kVqx20UufA9f0LY+rw==" />
 </head>
 <body onload="prettyPrint()">
 <div id="header" class="container_12 clearfix">
@@ -708,7 +708,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 < <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 < <meta name="csrf-param" content="authenticity_token" />
-< <meta name="csrf-token" content="AAorLRDGTfZLn19gxyh67ZPatcL2EnYIzWZOTiR+e10yTX+3EbBPwCT4Z8hwTTnrM3yyyYOVpH+GPLdprx2EsA==" />
+< <meta name="csrf-token" content="ximiZz0uGCNno7SnN/U4pUsRbyeGqs3r/q5+oP1gldVot3OE448P2LnDr+csWWTl844/kVqx20UufA9f0LY+rw==" />
 < </head>
 < <body onload="prettyPrint()">
 < <div id="header" class="container_12 clearfix">
