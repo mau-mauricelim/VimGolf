@@ -22,6 +22,9 @@ Challenges: https://www.vimgolf.com/
 9. ``` `` ``` moves cursor back to previous position.
 10. Use `<num>G` to jump to line.
 
+## Useful Vim resources 📖
+- [vim-galore](https://github.com/mhinz/vim-galore) Everything you need to know about Vim
+
 ## KdbGolf tips 💡
 1. [We Don't Need No Stinkin’ Brackets](https://code.kx.com/q4m3/6_Functions/#615-we-dont-need-no-stinkin-brackets)
 
