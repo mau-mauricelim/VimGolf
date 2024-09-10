@@ -16,7 +16,7 @@
 <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="SAVtzBCL7y853N0AR/xiHfRD25lJ2qijkHZQnS6zzFnx1JhOkQk3lFwJhivG83pVxRCVOJRLbns3y1uFaL2qPQ==" />
+<meta name="csrf-token" content="R9TfEBzQy/oqS4JBG+ky6GfsuPd1pQ1SzJmWmvEQCiFA8kLxWwZ/m/w7vGlITe/WnN8LWBp1RWfGNEYvZEmOmA==" />
 </head>
 <body onload="prettyPrint()">
 <div id="header" class="container_12 clearfix">
@@ -355,7 +355,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 < <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 < <meta name="csrf-param" content="authenticity_token" />
-< <meta name="csrf-token" content="SAVtzBCL7y853N0AR/xiHfRD25lJ2qijkHZQnS6zzFnx1JhOkQk3lFwJhivG83pVxRCVOJRLbns3y1uFaL2qPQ==" />
+< <meta name="csrf-token" content="R9TfEBzQy/oqS4JBG+ky6GfsuPd1pQ1SzJmWmvEQCiFA8kLxWwZ/m/w7vGlITe/WnN8LWBp1RWfGNEYvZEmOmA==" />
 < </head>
 < <body onload="prettyPrint()">
 < <div id="header" class="container_12 clearfix">
