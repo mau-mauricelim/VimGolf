@@ -3,6 +3,7 @@
 - [applying_same_text_modification_in_several_lines](#applying_same_text_modification_in_several_lines)
 - [box_it](#box_it)
 - [com_m_a_trouble](#com_m_a_trouble)
+- [contribute_to_keyboard_mashing](#contribute_to_keyboard_mashing)
 - [cool_or_not](#cool_or_not)
 - [i_forgot_quotes](#i_forgot_quotes)
 - [increment_each_number](#increment_each_number)
@@ -10,10 +11,12 @@
 - [one_number_per_line](#one_number_per_line)
 - [one_to_ten](#one_to_ten)
 - [played_challenges](#played_challenges)
+- [reordering_lorem_ipsum](#reordering_lorem_ipsum)
 - [resort_and_deup_a_csv_list](#resort_and_deup_a_csv_list)
 - [simple_practical_and_common](#simple_practical_and_common)
 - [two_pairs_of_cluster_of_letters_creates_word](#two_pairs_of_cluster_of_letters_creates_word)
 - [words_in_parens](#words_in_parens)
+- [hello-world-vimgolf](#hello-world-vimgolf)
 - [ninja_substitution](#ninja_substitution)
 - [remove_lines_containing_the_word_reader](#remove_lines_containing_the_word_reader)
 - [simple_format_3](#simple_format_3)
@@ -156,6 +159,52 @@ fia<BS>wa<Esc>I# <Esc>A #<Esc>YpVr#YkPZZ
 ## KdbGolf Solution
 ```q
 `:out 0:sv[","]@'string rotate'[t;10 10#t:til 10]
+```
+# Contribute_to_keyboard_mashing
+## Start file
+```
+jgjogk
+imnmr
+ignsong
+mgrga
+ye
+kpart
+kkkkkkkkkkkkkekkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk oooooooooooooooooooooooooooooooooooooo
+jjij
+```
+## End file
+```
+jgjogk
+imnmr
+ignsong
+mgrga
+ye
+kpart
+on
+kkkkkkkkkkkkkenkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk oooooooooooooooooooooooooooooooooooooof
+od
+jjij
+```
+## View Diff
+<details><summary>Click me</summary>
+
+```
+7c7,9
+< kkkkkkkkkkkkkekkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk oooooooooooooooooooooooooooooooooooooo
+---
+> on
+> kkkkkkkkkkkkkenkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk oooooooooooooooooooooooooooooooooooooof
+> od
+```
+</details>
+
+## VimGolf Solution
+```sh
+44 rnAf<CR>od<Esc>kOon<Esc>ZZ
+```
+## KdbGolf Solution
+```q
+r[6 7 8 9]:(r:read0[`:inp],"o",'"nd")8 6 9 7;`:out 0:@[r;7;{@[x;14;:;"n"],"f"}]
 ```
 # Cool_or_not
 ## Start file
@@ -431,7 +480,7 @@ i1<Esc>Y9pvGg<C-A>ZZ
 <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="R9TfEBzQy/oqS4JBG+ky6GfsuPd1pQ1SzJmWmvEQCiFA8kLxWwZ/m/w7vGlITe/WnN8LWBp1RWfGNEYvZEmOmA==" />
+<meta name="csrf-token" content="EjE4yq8Xts4O7B6LNhG9r10eqXLj1wVUaGM0iOZQcJ4TNv2GnBtfpO/2jUeg8YevcbBe+lANR9YZaUNf0o0wNA==" />
 </head>
 <body onload="prettyPrint()">
 <div id="header" class="container_12 clearfix">
@@ -770,7 +819,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 < <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 < <meta name="csrf-param" content="authenticity_token" />
-< <meta name="csrf-token" content="R9TfEBzQy/oqS4JBG+ky6GfsuPd1pQ1SzJmWmvEQCiFA8kLxWwZ/m/w7vGlITe/WnN8LWBp1RWfGNEYvZEmOmA==" />
+< <meta name="csrf-token" content="EjE4yq8Xts4O7B6LNhG9r10eqXLj1wVUaGM0iOZQcJ4TNv2GnBtfpO/2jUeg8YevcbBe+lANR9YZaUNf0o0wNA==" />
 < </head>
 < <body onload="prettyPrint()">
 < <div id="header" class="container_12 clearfix">
@@ -1110,6 +1159,107 @@ h:"Played Challenges|Entries|Best score|Best player score|Position|Number of att
 / `out 0:{"|",x,"|"}@'(h;ssr[;"--";"-"]/[ssr[h;"[A-z ]";"-"]]),t
 `out 0:{"|",x,"|"}@'(h;ssr[h;"[A-z ]";"-"]),t;
 ```
+# Reordering_Lorem_Ipsum
+## Start file
+```
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+Porttitor eget dolor morbi non arcu risus quis varius
+Commodo ullamcorper a lacus vestibulum sed arcu non odio
+Dui vivamus arcu felis bibendum ut tristique et egestas quis
+Convallis tellus id interdum velit laoreet
+Cursus euismod quis viverra nibh cras pulvinar
+Eget mi proin sed libero enim sed faucibus turpis
+Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla
+Id donec ultrices tincidunt arcu
+Varius duis at consectetur lorem donec massa sapien faucibus et
+Sociis natoque penatibus et magnis dis parturient montes nascetur
+Aliquam eleifend mi in nulla
+Lectus arcu bibendum at varius vel pharetra vel turpis
+Neque aliquam vestibulum morbi blandit cursus
+Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim
+Erat velit scelerisque in dictum
+Et odio pellentesque diam volutpat commodo sed egestas
+Egestas quis ipsum suspendisse ultrices gravida dictum
+Phasellus faucibus scelerisque eleifend donec pretium vulputate
+Non quam lacus suspendisse faucibus interdum posuere lorem
+Sagittis nisl rhoncus mattis rhoncus
+```
+## End file
+```
+Neque aliquam vestibulum morbi blandit cursus
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim
+Aliquam eleifend mi in nulla
+Egestas quis ipsum suspendisse ultrices gravida dictum
+Commodo ullamcorper a lacus vestibulum sed arcu non odio
+Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla
+Et odio pellentesque diam volutpat commodo sed egestas
+Porttitor eget dolor morbi non arcu risus quis varius
+Dui vivamus arcu felis bibendum ut tristique et egestas quis
+Convallis tellus id interdum velit laoreet
+Phasellus faucibus scelerisque eleifend donec pretium vulputate
+Eget mi proin sed libero enim sed faucibus turpis
+Id donec ultrices tincidunt arcu
+Lectus arcu bibendum at varius vel pharetra vel turpis
+Varius duis at consectetur lorem donec massa sapien faucibus et
+Cursus euismod quis viverra nibh cras pulvinar
+Sociis natoque penatibus et magnis dis parturient montes nascetur
+Sagittis nisl rhoncus mattis rhoncus
+Non quam lacus suspendisse faucibus interdum posuere lorem
+Erat velit scelerisque in dictum
+```
+## View Diff
+<details><summary>Click me</summary>
+
+```
+0a1
+> Neque aliquam vestibulum morbi blandit cursus
+2c3,5
+< Porttitor eget dolor morbi non arcu risus quis varius
+---
+> Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim
+> Aliquam eleifend mi in nulla
+> Egestas quis ipsum suspendisse ultrices gravida dictum
+3a7,9
+> Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla
+> Et odio pellentesque diam volutpat commodo sed egestas
+> Porttitor eget dolor morbi non arcu risus quis varius
+6c12
+< Cursus euismod quis viverra nibh cras pulvinar
+---
+> Phasellus faucibus scelerisque eleifend donec pretium vulputate
+8d13
+< Praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla
+9a15
+> Lectus arcu bibendum at varius vel pharetra vel turpis
+10a17
+> Cursus euismod quis viverra nibh cras pulvinar
+12,20d18
+< Aliquam eleifend mi in nulla
+< Lectus arcu bibendum at varius vel pharetra vel turpis
+< Neque aliquam vestibulum morbi blandit cursus
+< Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim
+< Erat velit scelerisque in dictum
+< Et odio pellentesque diam volutpat commodo sed egestas
+< Egestas quis ipsum suspendisse ultrices gravida dictum
+< Phasellus faucibus scelerisque eleifend donec pretium vulputate
+< Non quam lacus suspendisse faucibus interdum posuere lorem
+21a20,21
+> Non quam lacus suspendisse faucibus interdum posuere lorem
+> Erat velit scelerisque in dictum
+```
+</details>
+
+## VimGolf Solution
+```sh
+:3m7|5m10|1m14|13,15m0|19m6|15m18|18,19m8|9,12m3|19m7|18m14|21m19|19m$<CR>ZZ
+```
+## KdbGolf Solution
+```q
+
+/ read0[`:inp]?/:read0`:out
+`:tmp 0:@[read0`:inp;13 0 14 11 17 2 7 16 1 3 4 18 6 8 12 9 5 10 20 19 15]
+```
 # Resort_and_deup_a_CSV_list
 ## Start file
 ```
@@ -1284,6 +1434,132 @@ qqce()<Esc>PWq2@qZZ
 ## KdbGolf Solution
 ```q
 `:out 0:{" "sv{"(",x,")"}@'" "vs x}@'read0`:inp
+```
+# hello-world-vimgolf
+## Start file
+```
+51
+```
+## End file
+```
+50
+49
+48
+47
+46
+45
+44
+43
+42
+41
+40
+39
+38
+37
+36
+35
+34
+33
+32
+31
+30
+29
+28
+27
+26
+25
+24
+23
+22
+21
+20
+19
+18
+17
+16
+15
+14
+13
+12
+11
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+```
+## View Diff
+<details><summary>Click me</summary>
+
+```
+1c1,50
+< 51
+---
+> 50
+> 49
+> 48
+> 47
+> 46
+> 45
+> 44
+> 43
+> 42
+> 41
+> 40
+> 39
+> 38
+> 37
+> 36
+> 35
+> 34
+> 33
+> 32
+> 31
+> 30
+> 29
+> 28
+> 27
+> 26
+> 25
+> 24
+> 23
+> 22
+> 21
+> 20
+> 19
+> 18
+> 17
+> 16
+> 15
+> 14
+> 13
+> 12
+> 11
+> 10
+> 9
+> 8
+> 7
+> 6
+> 5
+> 4
+> 3
+> 2
+> 1
+```
+</details>
+
+## VimGolf Solution
+```sh
+Y49PVGg<C-X>ZZ
+```
+## KdbGolf Solution
+```q
+`:out 0:string 50-til 50
 ```
 # ninja_substitution
 ## Start file
