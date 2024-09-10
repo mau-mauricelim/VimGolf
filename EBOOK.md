@@ -5,10 +5,12 @@
 - [com_m_a_trouble](#com_m_a_trouble)
 - [cool_or_not](#cool_or_not)
 - [i_forgot_quotes](#i_forgot_quotes)
+- [increment_each_number](#increment_each_number)
 - [just_the_middle](#just_the_middle)
 - [one_number_per_line](#one_number_per_line)
 - [one_to_ten](#one_to_ten)
 - [played_challenges](#played_challenges)
+- [resort_and_deup_a_csv_list](#resort_and_deup_a_csv_list)
 - [simple_practical_and_common](#simple_practical_and_common)
 - [two_pairs_of_cluster_of_letters_creates_word](#two_pairs_of_cluster_of_letters_creates_word)
 - [words_in_parens](#words_in_parens)
@@ -243,6 +245,34 @@ foo = "a"
 ```q
 `:out 0:{" "sv@[v;-1+count v:" "vs x;{"\"",x,"\""}]}@'read0`:inp
 ```
+# Increment_each_number
+## Start file
+```
+10794586310243795
+```
+## End file
+```
+21805697421354806
+```
+## View Diff
+<details><summary>Click me</summary>
+
+```
+1c1
+< 10794586310243795
+---
+> 21805697421354806
+```
+</details>
+
+## VimGolf Solution
+```sh
+R21805697421354806<Esc>ZZ
+```
+## KdbGolf Solution
+```q
+`:out 0:enlist""sv string("J"$1 cut read0[`:inp]0)mod 10
+```
 # Just_the_middle
 ## Start file
 ```
@@ -401,7 +431,7 @@ i1<Esc>Y9pvGg<C-A>ZZ
 <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="hF9cM6DF8PEoZMNuDNYJ9EPYGObu3aPIG6kNTF8MLw7tZ4ba2IdREbDBjP1JT9DKeepd+NksdOMpfdSnR158gg==" />
+<meta name="csrf-token" content="nJlsXZ714gzOfVjzzW3AaRO1lMLecRfXZAhsjss2Ime5zliRyQdlp/4jOBdkJ3+Rj8HetEcZ9Vzb7vAknmCYJA==" />
 </head>
 <body onload="prettyPrint()">
 <div id="header" class="container_12 clearfix">
@@ -708,7 +738,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 < <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 < <meta name="csrf-param" content="authenticity_token" />
-< <meta name="csrf-token" content="hF9cM6DF8PEoZMNuDNYJ9EPYGObu3aPIG6kNTF8MLw7tZ4ba2IdREbDBjP1JT9DKeepd+NksdOMpfdSnR158gg==" />
+< <meta name="csrf-token" content="nJlsXZ714gzOfVjzzW3AaRO1lMLecRfXZAhsjss2Ime5zliRyQdlp/4jOBdkJ3+Rj8HetEcZ9Vzb7vAknmCYJA==" />
 < </head>
 < <body onload="prettyPrint()">
 < <div id="header" class="container_12 clearfix">
@@ -1015,6 +1045,56 @@ t:{s:raze 1 -4#\:x y _til z+1;
 h:"Played Challenges|Entries|Best score|Best player score|Position|Number of attempts";
 / `out 0:{"|",x,"|"}@'(h;ssr[;"--";"-"]/[ssr[h;"[A-z ]";"-"]]),t
 `out 0:{"|",x,"|"}@'(h;ssr[h;"[A-z ]";"-"]),t;
+```
+# Resort_and_deup_a_CSV_list
+## Start file
+```
+// Animals ordered by continent.
+africa = ["hippo", "lion", "atlas bear", "gorilla", "hyena", "giraffe", "zebra"]
+asia = ["tiger", "honey bear", "yak", "monkey", "panda"]
+europe = ["flea", "brown bear", "ox", "fox", "rat", "deer"]
+namerica = ["polar bear", "alligator", "cougar", "wolf", "bison", "reindeer", "raccoon"]
+samerica = ["puma", "anaconda", "llama", "capybara", "spectacled bear", "penguin", "sloth"]
+australia = ["crocodile", "SPIDERS!", "dingo", "SPIDERS!", "kangaroo", "spider bear", "playtpus", "koala", "SPIDERS!", "echidna"]
+```
+## End file
+```
+// Animals ordered by continent.
+africa = ["atlas bear", "giraffe", "gorilla", "hippo", "hyena", "lion", "zebra"]
+asia = ["honey bear", "monkey", "panda", "tiger", "yak"]
+europe = ["brown bear", "deer", "flea", "fox", "ox", "rat"]
+namerica = ["alligator", "bison", "cougar", "polar bear", "raccoon", "reindeer", "wolf"]
+samerica = ["anaconda", "capybara", "llama", "penguin", "puma", "sloth", "spectacled bear"]
+australia = ["SPIDERS!", "crocodile", "dingo", "echidna", "kangaroo", "koala", "playtpus", "spider bear"]
+```
+## View Diff
+<details><summary>Click me</summary>
+
+```
+2,7c2,7
+< africa = ["hippo", "lion", "atlas bear", "gorilla", "hyena", "giraffe", "zebra"]
+< asia = ["tiger", "honey bear", "yak", "monkey", "panda"]
+< europe = ["flea", "brown bear", "ox", "fox", "rat", "deer"]
+< namerica = ["polar bear", "alligator", "cougar", "wolf", "bison", "reindeer", "raccoon"]
+< samerica = ["puma", "anaconda", "llama", "capybara", "spectacled bear", "penguin", "sloth"]
+< australia = ["crocodile", "SPIDERS!", "dingo", "SPIDERS!", "kangaroo", "spider bear", "playtpus", "koala", "SPIDERS!", "echidna"]
+---
+> africa = ["atlas bear", "giraffe", "gorilla", "hippo", "hyena", "lion", "zebra"]
+> asia = ["honey bear", "monkey", "panda", "tiger", "yak"]
+> europe = ["brown bear", "deer", "flea", "fox", "ox", "rat"]
+> namerica = ["alligator", "bison", "cougar", "polar bear", "raccoon", "reindeer", "wolf"]
+> samerica = ["anaconda", "capybara", "llama", "penguin", "puma", "sloth", "spectacled bear"]
+> australia = ["SPIDERS!", "crocodile", "dingo", "echidna", "kangaroo", "koala", "playtpus", "spider bear"]
+```
+</details>
+
+## VimGolf Solution
+```sh
+qq+f"Do<Esc>pr,:s/, /,\r/g<CR>v``:sor u<CR>gvJ$r]kgJq5@qZZ
+```
+## KdbGolf Solution
+```q
+
 ```
 # Simple_Practical_and_Common
 ## Start file
