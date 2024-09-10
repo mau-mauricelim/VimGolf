@@ -11,16 +11,18 @@ Challenges: https://www.vimgolf.com/
 2. Omit whitespace where possible.
 3. Chain commands with `|` delimiter.
 4. Use capital letter motion instead of double letter. E.g. Replace `yy` with `Y`.
-5. `H` goes all the way up vertically and `L` goes all the way down horizontally.
-6. Use `ZZ` to quit vim instead of `:x<CR>` or `:wq<CR>`.
-7. Macros can be editted.
+5. Use `ZZ` to quit vim instead of `:x<CR>` or `:wq<CR>`.
+6. Macros can be editted.
     1. Macros are stored into Vim registers, view them with `:reg`.
     2. Assuming the macro is in register `q`, paste the content of register `q` into the buffer using `:pu q`.
     3. Inspect and modify the line.
     4. Copy the macro into the desired register using `"qyy` (where `q` is the desired register here).
-8. Learn from others' solutions and try to understand the logic behind the solution.
-9. ``` `` ``` moves cursor back to previous position.
-10. Use `<num>G` to jump to line.
+7. Learn from others' solutions and try to understand the logic behind the solution.
+8. ``` `` ```: To the position before the latest jump.
+9. `G`: Goto line [count], default last line, on the first non-blank character.
+10. `X`: Delete [count] characters before the cursor.
+11. `gJ`: Join [count] lines, with a minimum of two lines. Don't insert or remove any spaces.
+12. `+/-`: [count] lines downward/upward, on the first non-blank character linewise.
 
 ## Useful Vim resources 📖
 - [vim-galore](https://github.com/mhinz/vim-galore) Everything you need to know about Vim

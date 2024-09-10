@@ -1,0 +1,7 @@
+// Animals ordered by continent.
+africa = ["hippo", "lion", "atlas bear", "gorilla", "hyena", "giraffe", "zebra"]
+asia = ["tiger", "honey bear", "yak", "monkey", "panda"]
+europe = ["flea", "brown bear", "ox", "fox", "rat", "deer"]
+namerica = ["polar bear", "alligator", "cougar", "wolf", "bison", "reindeer", "raccoon"]
+samerica = ["puma", "anaconda", "llama", "capybara", "spectacled bear", "penguin", "sloth"]
+australia = ["crocodile", "SPIDERS!", "dingo", "SPIDERS!", "kangaroo", "spider bear", "playtpus", "koala", "SPIDERS!", "echidna"]
