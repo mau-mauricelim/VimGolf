@@ -1,5 +1,6 @@
 # VimGolf
 ## Table of contents
+- [.played_challenges](#.played_challenges)
 - [applying_same_text_modification_in_several_lines](#applying_same_text_modification_in_several_lines)
 - [box_it](#box_it)
 - [com_m_a_trouble](#com_m_a_trouble)

@@ -16,7 +16,6 @@
 <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="UyZz64KQa51Jl7WqE8Iudr7DPZRNnfLbQCmObdLq1a5umae6nk1xOPFrdOwFT3dFlMV/MkCPV0NJ2dHFM3J7WQ==" />
 </head>
 <body onload="prettyPrint()">
 <div id="header" class="container_12 clearfix">
@@ -414,7 +413,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 <details><summary>Click me</summary>
 
 ```
-1,382c1,23
+1,381c1,23
 < <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 <     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 < <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
@@ -430,7 +429,6 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 < <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 < <meta name="csrf-param" content="authenticity_token" />
-< <meta name="csrf-token" content="UyZz64KQa51Jl7WqE8Iudr7DPZRNnfLbQCmObdLq1a5umae6nk1xOPFrdOwFT3dFlMV/MkCPV0NJ2dHFM3J7WQ==" />
 < </head>
 < <body onload="prettyPrint()">
 < <div id="header" class="container_12 clearfix">
