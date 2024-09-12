@@ -16,7 +16,7 @@
 <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="HMr4xz+5gGHaHrbyLLMaAazcW6QRdW3gRsMA+3axDVQY4ohmHoIDrwy8c477WrWEtoYksi8mQTwYngsqvn18Iw==" />
+<meta name="csrf-token" content="UyZz64KQa51Jl7WqE8Iudr7DPZRNnfLbQCmObdLq1a5umae6nk1xOPFrdOwFT3dFlMV/MkCPV0NJ2dHFM3J7WQ==" />
 </head>
 <body onload="prettyPrint()">
 <div id="header" class="container_12 clearfix">
@@ -48,6 +48,20 @@
 <div id="content" class="container_12 clearfix">
 <div class="grid_7">
 <h3><b>Played Challenges</b></h3>
+<div>
+<div>
+<h5 class="challenge">
+<a href="/challenges/9v0066dd4c360000000003c9">Markdown Blog Editing</a> - 42 entries
+</h5>
+<p>Convert the given link text in start file to a markdown link list.</p>
+</div>
+<ul>
+<li>Best score: <b>30</b></li>
+<li>Best player score: <b>36</b></li>
+<li>Position: <b>#6 / 16</b></li>
+<li>Number of attempts: <b><a href="/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim">3</a></b></li>
+</ul>
+</div>
 <div>
 <div>
 <h5 class="challenge">
@@ -345,7 +359,7 @@ w3CQGJUM/I3sHwgogVIf638KEKeSaAroSBYifcR/gPkDUT5iflj/U/4AESoB
 </h6>
 <p style="margin-bottom:0"><em></em></p>
 </div>
-<h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">20</b> challenges</h2>
+<h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">21</b> challenges</h2>
 <h2 style="padding:0em;margin:0.5em 1.5em">contributed <b class="stat">0</b> challenges</h2>
 </div>
 </div>
@@ -374,6 +388,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 ```
 |Played Challenges|Entries|Best score|Best player score|Position|Number of attempts|
 |-|-|-|-|-|-|
+|[Markdown Blog Editing](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9)|42|30|36|#6 / 16|[3](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim)|
 |[hello-world-vimgolf](https://www.vimgolf.com/challenges/9v0061478032000000000212)|2484|10|10|#341 / 703|[3](https://www.vimgolf.com/challenges/9v0061478032000000000212/user/mau-mauricelim)|
 |[Contribute to keyboard mashing](https://www.vimgolf.com/challenges/9v00612c165c000000000211)|890|17|18|#116 / 270|[3](https://www.vimgolf.com/challenges/9v00612c165c000000000211/user/mau-mauricelim)|
 |[Reordering Lorem Ipsum](https://www.vimgolf.com/challenges/9v00612800cb000000000210)|290|13|73|#41 / 66|[3](https://www.vimgolf.com/challenges/9v00612800cb000000000210/user/mau-mauricelim)|
@@ -399,7 +414,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 <details><summary>Click me</summary>
 
 ```
-1,368c1,22
+1,382c1,23
 < <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 <     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 < <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
@@ -415,7 +430,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 < <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 < <meta name="csrf-param" content="authenticity_token" />
-< <meta name="csrf-token" content="HMr4xz+5gGHaHrbyLLMaAazcW6QRdW3gRsMA+3axDVQY4ohmHoIDrwy8c477WrWEtoYksi8mQTwYngsqvn18Iw==" />
+< <meta name="csrf-token" content="UyZz64KQa51Jl7WqE8Iudr7DPZRNnfLbQCmObdLq1a5umae6nk1xOPFrdOwFT3dFlMV/MkCPV0NJ2dHFM3J7WQ==" />
 < </head>
 < <body onload="prettyPrint()">
 < <div id="header" class="container_12 clearfix">
@@ -447,6 +462,20 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <div id="content" class="container_12 clearfix">
 < <div class="grid_7">
 < <h3><b>Played Challenges</b></h3>
+< <div>
+< <div>
+< <h5 class="challenge">
+< <a href="/challenges/9v0066dd4c360000000003c9">Markdown Blog Editing</a> - 42 entries
+< </h5>
+< <p>Convert the given link text in start file to a markdown link list.</p>
+< </div>
+< <ul>
+< <li>Best score: <b>30</b></li>
+< <li>Best player score: <b>36</b></li>
+< <li>Position: <b>#6 / 16</b></li>
+< <li>Number of attempts: <b><a href="/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim">3</a></b></li>
+< </ul>
+< </div>
 < <div>
 < <div>
 < <h5 class="challenge">
@@ -744,7 +773,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < </h6>
 < <p style="margin-bottom:0"><em></em></p>
 < </div>
-< <h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">20</b> challenges</h2>
+< <h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">21</b> challenges</h2>
 < <h2 style="padding:0em;margin:0.5em 1.5em">contributed <b class="stat">0</b> challenges</h2>
 < </div>
 < </div>
@@ -771,6 +800,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 ---
 > |Played Challenges|Entries|Best score|Best player score|Position|Number of attempts|
 > |-|-|-|-|-|-|
+> |[Markdown Blog Editing](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9)|42|30|36|#6 / 16|[3](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim)|
 > |[hello-world-vimgolf](https://www.vimgolf.com/challenges/9v0061478032000000000212)|2484|10|10|#341 / 703|[3](https://www.vimgolf.com/challenges/9v0061478032000000000212/user/mau-mauricelim)|
 > |[Contribute to keyboard mashing](https://www.vimgolf.com/challenges/9v00612c165c000000000211)|890|17|18|#116 / 270|[3](https://www.vimgolf.com/challenges/9v00612c165c000000000211/user/mau-mauricelim)|
 > |[Reordering Lorem Ipsum](https://www.vimgolf.com/challenges/9v00612800cb000000000210)|290|13|73|#41 / 66|[3](https://www.vimgolf.com/challenges/9v00612800cb000000000210/user/mau-mauricelim)|
