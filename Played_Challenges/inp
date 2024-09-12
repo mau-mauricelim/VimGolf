@@ -13,7 +13,7 @@
 <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="pUqV+M44QrjexQx+LqbIJLJ97I6d/bwaNWi6E1kW7vkpK4f9pc0MbSZw4FwHh/Z/8U8AxGHOVZGIo9p43vhaow==" />
+<meta name="csrf-token" content="HMr4xz+5gGHaHrbyLLMaAazcW6QRdW3gRsMA+3axDVQY4ohmHoIDrwy8c477WrWEtoYksi8mQTwYngsqvn18Iw==" />
 </head>
 <body onload="prettyPrint()">
 <div id="header" class="container_12 clearfix">
@@ -90,7 +90,21 @@
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/55b18bbea9c2c30d04000001">Simple, Practical, and Common</a> - 33533 entries
+<a href="/challenges/9v006115f6d000000000020c">Fill in the chess board</a> - 953 entries
+</h5>
+<p>Fill in the name of each square using its file (a-h) and rank (1-8).</p>
+</div>
+<ul>
+<li>Best score: <b>19</b></li>
+<li>Best player score: <b>25</b></li>
+<li>Position: <b>#63 / 182</b></li>
+<li>Number of attempts: <b><a href="/challenges/9v006115f6d000000000020c/user/mau-mauricelim">6</a></b></li>
+</ul>
+</div>
+<div>
+<div>
+<h5 class="challenge">
+<a href="/challenges/55b18bbea9c2c30d04000001">Simple, Practical, and Common</a> - 33535 entries
 </h5>
 <p>Simple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I need to do makes me go, &quot;There MUST be a better way.&quot;
 This challenge is just a simple movement and entering text at a certain place.</p>
@@ -98,7 +112,7 @@ This challenge is just a simple movement and entering text at a certain place.</
 <ul>
 <li>Best score: <b>22</b></li>
 <li>Best player score: <b>24</b></li>
-<li>Position: <b>#3112 / 7396</b></li>
+<li>Position: <b>#3113 / 7397</b></li>
 <li>Number of attempts: <b><a href="/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
@@ -328,7 +342,7 @@ w3CQGJUM/I3sHwgogVIf638KEKeSaAroSBYifcR/gPkDUT5iflj/U/4AESoB
 </h6>
 <p style="margin-bottom:0"><em></em></p>
 </div>
-<h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">19</b> challenges</h2>
+<h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">20</b> challenges</h2>
 <h2 style="padding:0em;margin:0.5em 1.5em">contributed <b class="stat">0</b> challenges</h2>
 </div>
 </div>
