@@ -1,6 +1,5 @@
 # VimGolf
 ## Table of contents
-- [played_challenges](#played_challenges)
 - [applying_same_text_modification_in_several_lines](#applying_same_text_modification_in_several_lines)
 - [box_it](#box_it)
 - [com_m_a_trouble](#com_m_a_trouble)
@@ -22,6 +21,7 @@
 - [ninja_substitution](#ninja_substitution)
 - [remove_lines_containing_the_word_reader](#remove_lines_containing_the_word_reader)
 - [simple_format_3](#simple_format_3)
+- [played_challenges](#played_challenges)
 # Applying_same_text_modification_in_several_lines
 ## Start file
 ```
