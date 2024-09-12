@@ -1,0 +1,1 @@
+:%norm r*wC[<C-Q><C-R>"](#<C-Q><C-R>")<C-Q><Esc>gu%f r-;.<CR>ZZ
