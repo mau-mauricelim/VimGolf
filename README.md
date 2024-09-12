@@ -3,7 +3,7 @@ Challenges: https://www.vimgolf.com/
 - [vimgolf.vimrc](https://gist.github.com/igrigorik/759425#file-vimgolf-vimrc)
 
 ## Bonus challenges 🎁
-- Get personal stats of your [Played Challenges](Played_Challenges/README.md#end-file) in a markdown table format
+- Get personal stats of your [Played Challenges](.Played_Challenges/README.md#end-file) in a markdown table format
 - KdbGolf - useful for parsing files
 
 ## VimGolf tips 💡

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-stats=$(curl -sL https://www.vimgolf.com/45533/mau-mauricelim)
-CHALLENGE=$(git rev-parse --show-toplevel)/Played_Challenges
+stats=$(curl -sL https://www.vimgolf.com/45533/mau-mauricelim | grep -v csrf-token)
+CHALLENGE=$(git rev-parse --show-toplevel)/.Played_Challenges
 
 echo "$stats" > "$CHALLENGE/inp"
 out=$(echo "$stats" |\
