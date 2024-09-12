@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Generate docs for challenges
         run: |
-          bash genDoc.sh */
+          bash genDoc.sh {*,.Played_Challenges}/
       - name: Generate personal stats
         run: |
           bash getStats.sh

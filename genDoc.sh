@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 for CHALLENGE in "${@%/}" # Strips trailing slash
 do
-    NAME="$(basename "$CHALLENGE")"
+    NAME="$(basename "$CHALLENGE" | sed -e 's/\.//g')" # Strips dots
     DOC="$CHALLENGE/README.md"
     appendToDoc() {
         echo "${1}" >> "$DOC"
