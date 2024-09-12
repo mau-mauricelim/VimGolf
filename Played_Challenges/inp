@@ -13,7 +13,7 @@
 <script src="/assets/application-7941238973273d25b4187dcef435ea60c803cc1a3a1c475bbfa0615de205ce1e.js"></script>
 <link rel="alternate" type="application/rss+xml" title="Latest VimGolf challenges" href="https://feeds.vimgolf.com/latest-challenges" />
 <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="HMr4xz+5gGHaHrbyLLMaAazcW6QRdW3gRsMA+3axDVQY4ohmHoIDrwy8c477WrWEtoYksi8mQTwYngsqvn18Iw==" />
+<meta name="csrf-token" content="NopLtxQUGe7dooqNs9bnkafhojpnTzmNF+kNYG5biJVQv10HkgyXdmqHh+C7E4NLfeXZWvXZbgR5pZkaAcNHIg==" />
 </head>
 <body onload="prettyPrint()">
 <div id="header" class="container_12 clearfix">
@@ -45,6 +45,20 @@
 <div id="content" class="container_12 clearfix">
 <div class="grid_7">
 <h3><b>Played Challenges</b></h3>
+<div>
+<div>
+<h5 class="challenge">
+<a href="/challenges/9v0066dd4c360000000003c9">Markdown Blog Editing</a> - 42 entries
+</h5>
+<p>Convert the given link text in start file to a markdown link list.</p>
+</div>
+<ul>
+<li>Best score: <b>30</b></li>
+<li>Best player score: <b>36</b></li>
+<li>Position: <b>#6 / 16</b></li>
+<li>Number of attempts: <b><a href="/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim">3</a></b></li>
+</ul>
+</div>
 <div>
 <div>
 <h5 class="challenge">
@@ -342,7 +356,7 @@ w3CQGJUM/I3sHwgogVIf638KEKeSaAroSBYifcR/gPkDUT5iflj/U/4AESoB
 </h6>
 <p style="margin-bottom:0"><em></em></p>
 </div>
-<h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">20</b> challenges</h2>
+<h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">21</b> challenges</h2>
 <h2 style="padding:0em;margin:0.5em 1.5em">contributed <b class="stat">0</b> challenges</h2>
 </div>
 </div>
