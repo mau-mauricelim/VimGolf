@@ -20,7 +20,7 @@ jobs:
           { sed '/45533/q' README.md; echo; cat .Played_Challenges/out; echo; } > /tmp/README.md && mv /tmp/README.md .
       - name: Generate compiled markdown eBook
         run: |
-          { echo -e "# VimGolf\n## Table of contents"; ls -d {*,.Played_Challenges}/|awk '{ print "- ["tolower($1)"](#"tolower($1)")" }'|sed 's/\///g;s/\.//g'; cat {*,.Played_Challenges}/README.md; } > EBOOK.md
+          { echo -e "# VimGolf\n## Table of contents"; find {*,.Played_Challenges}/ -maxdepth 0 -type d|awk '{ print "- ["tolower($1)"](#"tolower($1)")" }'|sed 's/\///g;s/\.//g'; cat {*,.Played_Challenges}/README.md; } > EBOOK.md
       - name: Add, commit and push
         run: |
           git config --global user.name 'github-actions[bot]'
