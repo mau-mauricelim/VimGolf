@@ -1,6 +1,7 @@
 # VimGolf
 ## Table of contents
 - [applying_same_text_modification_in_several_lines](#applying_same_text_modification_in_several_lines)
+- [basic_renumbering](#basic_renumbering)
 - [box_it](#box_it)
 - [com_m_a_trouble](#com_m_a_trouble)
 - [contribute_to_keyboard_mashing](#contribute_to_keyboard_mashing)
@@ -16,6 +17,7 @@
 - [reordering_lorem_ipsum](#reordering_lorem_ipsum)
 - [resort_and_deup_a_csv_list](#resort_and_deup_a_csv_list)
 - [simple_practical_and_common](#simple_practical_and_common)
+- [simple_text_editing_with_vim](#simple_text_editing_with_vim)
 - [two_pairs_of_cluster_of_letters_creates_word](#two_pairs_of_cluster_of_letters_creates_word)
 - [words_in_parens](#words_in_parens)
 - [hello-world-vimgolf](#hello-world-vimgolf)
@@ -66,6 +68,52 @@ _application.ShowsSniperHasLostAuction();
 ## KdbGolf Solution
 ```q
 `:out 0:{ssr[36_x;"))";")"]}@'read0`:inp
+```
+# Basic_renumbering
+## Start file
+```
+10 PRINT "The actual"
+15 PRINT "code doesn't"
+16 PRINT "really matter."
+20 PRINT "Just take"
+25 PRINT "care of"
+30 PRINT "the numbers."
+```
+## End file
+```
+10 PRINT "The actual"
+20 PRINT "code doesn't"
+30 PRINT "really matter."
+40 PRINT "Just take"
+50 PRINT "care of"
+60 PRINT "the numbers."
+```
+## View Diff
+<details><summary>Click me</summary>
+
+```
+2,6c2,6
+< 15 PRINT "code doesn't"
+< 16 PRINT "really matter."
+< 20 PRINT "Just take"
+< 25 PRINT "care of"
+< 30 PRINT "the numbers."
+---
+> 20 PRINT "code doesn't"
+> 30 PRINT "really matter."
+> 40 PRINT "Just take"
+> 50 PRINT "care of"
+> 60 PRINT "the numbers."
+```
+</details>
+
+## VimGolf Solution
+```sh
+<C-Q>Glr0<C-Q>Gg<C-A>ZZ
+```
+## KdbGolf Solution
+```q
+`out 0:string[10*1+til 6],'2_'read0`:inp
 ```
 # Box_it
 ## Start file
@@ -953,6 +1001,111 @@ This challenge is just a simple movement and entering text at a certain place.
 ```q
 `:out 0:raze@/[enlist@'read0`:inp;5 8;({@[2#x;1;{(-3_x),"7 11"}]};{("";"New text.";"")})]
 ```
+# Simple_text_editing_with_Vim
+## Start file
+```
+Make the pairs of lines match up by making each second line same as first:
+
+# Appending text:
+The name "Vim" is an acronym for "Vi IMproved"
+The name "Vim" is an acronym for
+
+# Editing text:
+Vim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga
+Trivia: Vim is a text editor released by Bram Moolenaar in 1991 for the Amiga
+
+# Deleting text:
+Vim has a vi compatibility mode
+Vim has a vi compatibility mode but when not in this mode Vim has many enhancements over vi
+```
+## End file
+```
+Make the pairs of lines match up by making each second line same as first:
+
+# Appending text:
+The name "Vim" is an acronym for "Vi IMproved"
+The name "Vim" is an acronym for "Vi IMproved"
+
+# Editing text:
+Vim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga
+Vim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga
+
+# Deleting text:
+Vim has a vi compatibility mode
+Vim has a vi compatibility mode
+```
+## View Diff
+<details><summary>Click me</summary>
+
+```
+5c5
+< The name "Vim" is an acronym for
+---
+> The name "Vim" is an acronym for "Vi IMproved"
+9c9
+< Trivia: Vim is a text editor released by Bram Moolenaar in 1991 for the Amiga
+---
+> Vim is a text editor originally released by Bram Moolenaar in 1991 for the Amiga
+13c13
+< Vim has a vi compatibility mode but when not in this mode Vim has many enhancements over vi
+---
+> Vim has a vi compatibility mode
+```
+</details>
+
+## VimGolf Solution
+```sh
+: '
+https://stackoverflow.com/questions/6679388/challenge-simple-text-editing-with-vim-at-vimgolf-how-does-the-1-solution-wo
+
+> help copy
+:[range]co[py] {address}                                :co :copy
+                      Copy the lines given by [range] to below the line
+                      given by {address}.
+
+                                                      :t
+:t                      Synonym for copy.
+
+> help {address}
+Line numbers may be specified with:             :range {address}
+      {number}        an absolute line number  E1247
+      .               the current line                          :.
+      $               the last line in the file                 :$
+      %               equal to 1,$ (the entire file)            :%
+      't              position of mark t (lowercase)            :'
+      'T              position of mark T (uppercase); when the mark is in
+                      another file it cannot be used in a range
+      /{pattern}[/]   the next line where {pattern} matches     :/
+                              also see :range-pattern below
+      ?{pattern}[?]   the previous line where {pattern} matches :?
+                              also see :range-pattern below
+      \/              the next line where the previously used search
+                      pattern matches
+      \?              the previous line where the previously used search
+                      pattern matches
+      \&              the next line where the previously used substitute
+                      pattern matches
+
+> help :bar
+                                                      :bar :\bar
+'|' can be used to separate commands, so you can give multiple commands in one
+line.  If you want to use '|' in an argument, precede it with '\'.
+
+> help :,
+The default line specifier for most commands is the cursor position, but the
+commands ":write" and ":global" have the whole file (1,$) as default.
+
+If more line specifiers are given than required for the command, the first
+one(s) will be ignored
+
+`.+1` is equivalent to `+`
+'
+:g/V/t.|+d<CR>ZZ
+```
+## KdbGolf Solution
+```q
+`out 0:{@[x;i+1;:;x i:3 7 11]}read0`:inp
+```
 # Two_pairs_of_cluster_of_letters_creates_word
 ## Start file
 ```
@@ -1344,15 +1497,31 @@ ten:10
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/9v0066dd4c360000000003c9">Markdown Blog Editing</a> - 42 entries
+<a href="/challenges/9v0066dd4c360000000003c9">Markdown Blog Editing</a> - 98 entries
 </h5>
 <p>Convert the given link text in start file to a markdown link list.</p>
 </div>
 <ul>
 <li>Best score: <b>30</b></li>
 <li>Best player score: <b>36</b></li>
-<li>Position: <b>#6 / 16</b></li>
+<li>Position: <b>#10 / 25</b></li>
 <li>Number of attempts: <b><a href="/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim">3</a></b></li>
+</ul>
+</div>
+<div>
+<div>
+<h5 class="challenge">
+<a href="/challenges/9v0066d89856000000000388">Fix timezone format</a> - 112 entries
+</h5>
+<p>Add the missing T and Z in the datetime field.
+There should be a T instead of the space, and a Z at the end of the datetime.
+`2024-08-31 18:32:00;` -&gt; `2024-08-31T18:32:00Z;`</p>
+</div>
+<ul>
+<li>Best score: <b>15</b></li>
+<li>Best player score: <b>15</b></li>
+<li>Position: <b>#10 / 38</b></li>
+<li>Number of attempts: <b><a href="/challenges/9v0066d89856000000000388/user/mau-mauricelim">5</a></b></li>
 </ul>
 </div>
 <div>
@@ -1414,7 +1583,7 @@ ten:10
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/55b18bbea9c2c30d04000001">Simple, Practical, and Common</a> - 33535 entries
+<a href="/challenges/55b18bbea9c2c30d04000001">Simple, Practical, and Common</a> - 33545 entries
 </h5>
 <p>Simple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I need to do makes me go, &quot;There MUST be a better way.&quot;
 This challenge is just a simple movement and entering text at a certain place.</p>
@@ -1422,7 +1591,7 @@ This challenge is just a simple movement and entering text at a certain place.</
 <ul>
 <li>Best score: <b>22</b></li>
 <li>Best player score: <b>24</b></li>
-<li>Position: <b>#3113 / 7397</b></li>
+<li>Position: <b>#3114 / 7399</b></li>
 <li>Number of attempts: <b><a href="/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
@@ -1652,7 +1821,7 @@ w3CQGJUM/I3sHwgogVIf638KEKeSaAroSBYifcR/gPkDUT5iflj/U/4AESoB
 </h6>
 <p style="margin-bottom:0"><em></em></p>
 </div>
-<h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">21</b> challenges</h2>
+<h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">22</b> challenges</h2>
 <h2 style="padding:0em;margin:0.5em 1.5em">contributed <b class="stat">0</b> challenges</h2>
 </div>
 </div>
@@ -1681,12 +1850,13 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 ```
 |Played Challenges|Entries|Best score|Best player score|Position|Number of attempts|
 |-|-|-|-|-|-|
-|[Markdown Blog Editing](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9)|42|30|36|#6 / 16|[3](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim)|
+|[Markdown Blog Editing](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9)|98|30|36|#10 / 25|[3](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim)|
+|[Fix timezone format](https://www.vimgolf.com/challenges/9v0066d89856000000000388)|112|15|15|#10 / 38|[5](https://www.vimgolf.com/challenges/9v0066d89856000000000388/user/mau-mauricelim)|
 |[hello-world-vimgolf](https://www.vimgolf.com/challenges/9v0061478032000000000212)|2484|10|10|#341 / 703|[3](https://www.vimgolf.com/challenges/9v0061478032000000000212/user/mau-mauricelim)|
 |[Contribute to keyboard mashing](https://www.vimgolf.com/challenges/9v00612c165c000000000211)|890|17|18|#116 / 270|[3](https://www.vimgolf.com/challenges/9v00612c165c000000000211/user/mau-mauricelim)|
 |[Reordering Lorem Ipsum](https://www.vimgolf.com/challenges/9v00612800cb000000000210)|290|13|73|#41 / 66|[3](https://www.vimgolf.com/challenges/9v00612800cb000000000210/user/mau-mauricelim)|
 |[Fill in the chess board](https://www.vimgolf.com/challenges/9v006115f6d000000000020c)|953|19|25|#63 / 182|[6](https://www.vimgolf.com/challenges/9v006115f6d000000000020c/user/mau-mauricelim)|
-|[Simple, Practical, and Common](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001)|33535|22|24|#3113 / 7397|[3](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim)|
+|[Simple, Practical, and Common](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001)|33545|22|24|#3114 / 7399|[3](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim)|
 |[One number per line](https://www.vimgolf.com/challenges/56fb2e75ccffcc0009026473)|18705|14|21|#2580 / 3855|[3](https://www.vimgolf.com/challenges/56fb2e75ccffcc0009026473/user/mau-mauricelim)|
 |[Applying same text modification in several lines](https://www.vimgolf.com/challenges/5bbb82f969a25f0009541350)|2859|12|15|#540 / 845|[4](https://www.vimgolf.com/challenges/5bbb82f969a25f0009541350/user/mau-mauricelim)|
 |[remove lines containing the word &quot;reader&quot;](https://www.vimgolf.com/challenges/5c264e64e8c64916d7fca650)|3573|9|10|#857 / 1157|[2](https://www.vimgolf.com/challenges/5c264e64e8c64916d7fca650/user/mau-mauricelim)|
@@ -1707,7 +1877,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 <details><summary>Click me</summary>
 
 ```
-1,381c1,23
+1,397c1,24
 < <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 <     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 < <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
@@ -1757,15 +1927,31 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <div>
 < <div>
 < <h5 class="challenge">
-< <a href="/challenges/9v0066dd4c360000000003c9">Markdown Blog Editing</a> - 42 entries
+< <a href="/challenges/9v0066dd4c360000000003c9">Markdown Blog Editing</a> - 98 entries
 < </h5>
 < <p>Convert the given link text in start file to a markdown link list.</p>
 < </div>
 < <ul>
 < <li>Best score: <b>30</b></li>
 < <li>Best player score: <b>36</b></li>
-< <li>Position: <b>#6 / 16</b></li>
+< <li>Position: <b>#10 / 25</b></li>
 < <li>Number of attempts: <b><a href="/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim">3</a></b></li>
+< </ul>
+< </div>
+< <div>
+< <div>
+< <h5 class="challenge">
+< <a href="/challenges/9v0066d89856000000000388">Fix timezone format</a> - 112 entries
+< </h5>
+< <p>Add the missing T and Z in the datetime field.
+< There should be a T instead of the space, and a Z at the end of the datetime.
+< `2024-08-31 18:32:00;` -&gt; `2024-08-31T18:32:00Z;`</p>
+< </div>
+< <ul>
+< <li>Best score: <b>15</b></li>
+< <li>Best player score: <b>15</b></li>
+< <li>Position: <b>#10 / 38</b></li>
+< <li>Number of attempts: <b><a href="/challenges/9v0066d89856000000000388/user/mau-mauricelim">5</a></b></li>
 < </ul>
 < </div>
 < <div>
@@ -1827,7 +2013,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <div>
 < <div>
 < <h5 class="challenge">
-< <a href="/challenges/55b18bbea9c2c30d04000001">Simple, Practical, and Common</a> - 33535 entries
+< <a href="/challenges/55b18bbea9c2c30d04000001">Simple, Practical, and Common</a> - 33545 entries
 < </h5>
 < <p>Simple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I need to do makes me go, &quot;There MUST be a better way.&quot;
 < This challenge is just a simple movement and entering text at a certain place.</p>
@@ -1835,7 +2021,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <ul>
 < <li>Best score: <b>22</b></li>
 < <li>Best player score: <b>24</b></li>
-< <li>Position: <b>#3113 / 7397</b></li>
+< <li>Position: <b>#3114 / 7399</b></li>
 < <li>Number of attempts: <b><a href="/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim">3</a></b></li>
 < </ul>
 < </div>
@@ -2065,7 +2251,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < </h6>
 < <p style="margin-bottom:0"><em></em></p>
 < </div>
-< <h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">21</b> challenges</h2>
+< <h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">22</b> challenges</h2>
 < <h2 style="padding:0em;margin:0.5em 1.5em">contributed <b class="stat">0</b> challenges</h2>
 < </div>
 < </div>
@@ -2092,12 +2278,13 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 ---
 > |Played Challenges|Entries|Best score|Best player score|Position|Number of attempts|
 > |-|-|-|-|-|-|
-> |[Markdown Blog Editing](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9)|42|30|36|#6 / 16|[3](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim)|
+> |[Markdown Blog Editing](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9)|98|30|36|#10 / 25|[3](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim)|
+> |[Fix timezone format](https://www.vimgolf.com/challenges/9v0066d89856000000000388)|112|15|15|#10 / 38|[5](https://www.vimgolf.com/challenges/9v0066d89856000000000388/user/mau-mauricelim)|
 > |[hello-world-vimgolf](https://www.vimgolf.com/challenges/9v0061478032000000000212)|2484|10|10|#341 / 703|[3](https://www.vimgolf.com/challenges/9v0061478032000000000212/user/mau-mauricelim)|
 > |[Contribute to keyboard mashing](https://www.vimgolf.com/challenges/9v00612c165c000000000211)|890|17|18|#116 / 270|[3](https://www.vimgolf.com/challenges/9v00612c165c000000000211/user/mau-mauricelim)|
 > |[Reordering Lorem Ipsum](https://www.vimgolf.com/challenges/9v00612800cb000000000210)|290|13|73|#41 / 66|[3](https://www.vimgolf.com/challenges/9v00612800cb000000000210/user/mau-mauricelim)|
 > |[Fill in the chess board](https://www.vimgolf.com/challenges/9v006115f6d000000000020c)|953|19|25|#63 / 182|[6](https://www.vimgolf.com/challenges/9v006115f6d000000000020c/user/mau-mauricelim)|
-> |[Simple, Practical, and Common](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001)|33535|22|24|#3113 / 7397|[3](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim)|
+> |[Simple, Practical, and Common](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001)|33545|22|24|#3114 / 7399|[3](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim)|
 > |[One number per line](https://www.vimgolf.com/challenges/56fb2e75ccffcc0009026473)|18705|14|21|#2580 / 3855|[3](https://www.vimgolf.com/challenges/56fb2e75ccffcc0009026473/user/mau-mauricelim)|
 > |[Applying same text modification in several lines](https://www.vimgolf.com/challenges/5bbb82f969a25f0009541350)|2859|12|15|#540 / 845|[4](https://www.vimgolf.com/challenges/5bbb82f969a25f0009541350/user/mau-mauricelim)|
 > |[remove lines containing the word &quot;reader&quot;](https://www.vimgolf.com/challenges/5c264e64e8c64916d7fca650)|3573|9|10|#857 / 1157|[2](https://www.vimgolf.com/challenges/5c264e64e8c64916d7fca650/user/mau-mauricelim)|
