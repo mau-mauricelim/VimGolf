@@ -47,21 +47,21 @@
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/9v0066dd4c360000000003c9">Markdown Blog Editing</a> - 112 entries
+<a href="/challenges/9v0066dd4c360000000003c9">Markdown Blog Editing</a> - 147 entries
 </h5>
 <p>Convert the given link text in start file to a markdown link list.</p>
 </div>
 <ul>
 <li>Best score: <b>30</b></li>
 <li>Best player score: <b>36</b></li>
-<li>Position: <b>#10 / 32</b></li>
+<li>Position: <b>#12 / 40</b></li>
 <li>Number of attempts: <b><a href="/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/9v0066d89856000000000388">Fix timezone format</a> - 131 entries
+<a href="/challenges/9v0066d89856000000000388">Fix timezone format</a> - 153 entries
 </h5>
 <p>Add the missing T and Z in the datetime field.
 There should be a T instead of the space, and a Z at the end of the datetime.
@@ -70,8 +70,22 @@ There should be a T instead of the space, and a Z at the end of the datetime.
 <ul>
 <li>Best score: <b>15</b></li>
 <li>Best player score: <b>15</b></li>
-<li>Position: <b>#10 / 44</b></li>
+<li>Position: <b>#10 / 51</b></li>
 <li>Number of attempts: <b><a href="/challenges/9v0066d89856000000000388/user/mau-mauricelim">5</a></b></li>
+</ul>
+</div>
+<div>
+<div>
+<h5 class="challenge">
+<a href="/challenges/9v00628a9b2f000000000220">Poorly indented Python comments</a> - 1313 entries
+</h5>
+<p>Fix the alignment of some Python comments as quickly as possible.</p>
+</div>
+<ul>
+<li>Best score: <b>15</b></li>
+<li>Best player score: <b>15</b></li>
+<li>Position: <b>#55 / 220</b></li>
+<li>Number of attempts: <b><a href="/challenges/9v00628a9b2f000000000220/user/mau-mauricelim">11</a></b></li>
 </ul>
 </div>
 <div>
@@ -133,7 +147,7 @@ There should be a T instead of the space, and a Z at the end of the datetime.
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/55b18bbea9c2c30d04000001">Simple, Practical, and Common</a> - 33552 entries
+<a href="/challenges/55b18bbea9c2c30d04000001">Simple, Practical, and Common</a> - 33558 entries
 </h5>
 <p>Simple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I need to do makes me go, &quot;There MUST be a better way.&quot;
 This challenge is just a simple movement and entering text at a certain place.</p>
@@ -141,7 +155,7 @@ This challenge is just a simple movement and entering text at a certain place.</
 <ul>
 <li>Best score: <b>22</b></li>
 <li>Best player score: <b>24</b></li>
-<li>Position: <b>#3114 / 7401</b></li>
+<li>Position: <b>#3115 / 7402</b></li>
 <li>Number of attempts: <b><a href="/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
@@ -246,14 +260,14 @@ This challenge is just a simple movement and entering text at a certain place.</
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/54862fbb3f90ac0002904cf5">Just the middle</a> - 11418 entries
+<a href="/challenges/54862fbb3f90ac0002904cf5">Just the middle</a> - 11421 entries
 </h5>
 <p>Delete the instructions at the top and bottom.</p>
 </div>
 <ul>
 <li>Best score: <b>7</b></li>
 <li>Best player score: <b>8</b></li>
-<li>Position: <b>#3200 / 4182</b></li>
+<li>Position: <b>#3200 / 4184</b></li>
 <li>Number of attempts: <b><a href="/challenges/54862fbb3f90ac0002904cf5/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
@@ -331,28 +345,28 @@ Inspired by this Reddit thread: https://redd.it/ak4it2</p>
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/5462e3f41198b80002512673">I forgot quotes</a> - 15956 entries
+<a href="/challenges/5462e3f41198b80002512673">I forgot quotes</a> - 15962 entries
 </h5>
 <p>Oops.</p>
 </div>
 <ul>
 <li>Best score: <b>10</b></li>
 <li>Best player score: <b>15</b></li>
-<li>Position: <b>#2383 / 4171</b></li>
+<li>Position: <b>#2385 / 4173</b></li>
 <li>Number of attempts: <b><a href="/challenges/5462e3f41198b80002512673/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/5192f96ad8df110002000002">Words in parens</a> - 12918 entries
+<a href="/challenges/5192f96ad8df110002000002">Words in parens</a> - 12919 entries
 </h5>
 <p>We should all ace this, right?</p>
 </div>
 <ul>
 <li>Best score: <b>13</b></li>
 <li>Best player score: <b>14</b></li>
-<li>Position: <b>#1176 / 3957</b></li>
+<li>Position: <b>#1176 / 3958</b></li>
 <li>Number of attempts: <b><a href="/challenges/5192f96ad8df110002000002/user/mau-mauricelim">5</a></b></li>
 </ul>
 </div>
@@ -375,14 +389,14 @@ Also Australia&#39;s animals are weird.</p>
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/4d1a34ccfa85f32065000004">Simple text editing with Vim</a> - 12632 entries
+<a href="/challenges/4d1a34ccfa85f32065000004">Simple text editing with Vim</a> - 12655 entries
 </h5>
 <p>Make the pairs of lines match up by making each second line same as first</p>
 </div>
 <ul>
 <li>Best score: <b>13</b></li>
 <li>Best player score: <b>13</b></li>
-<li>Position: <b>#725 / 3655</b></li>
+<li>Position: <b>#725 / 3659</b></li>
 <li>Number of attempts: <b><a href="/challenges/4d1a34ccfa85f32065000004/user/mau-mauricelim">2</a></b></li>
 </ul>
 </div>
@@ -399,7 +413,7 @@ w3CQGJUM/I3sHwgogVIf638KEKeSaAroSBYifcR/gPkDUT5iflj/U/4AESoB
 </h6>
 <p style="margin-bottom:0"><em></em></p>
 </div>
-<h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">24</b> challenges</h2>
+<h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">25</b> challenges</h2>
 <h2 style="padding:0em;margin:0.5em 1.5em">contributed <b class="stat">0</b> challenges</h2>
 </div>
 </div>
