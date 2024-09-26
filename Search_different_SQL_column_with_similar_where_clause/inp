@@ -1,0 +1,5 @@
+SELECT * FROM numbers WHERE local_number IN (
+        "058307327",
+        "058307328",
+        "058307329"
+)

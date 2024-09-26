@@ -1,0 +1,5 @@
+SELECT * FROM numbers WHERE int_number IN (
+        35958307327,
+        35958307328,
+        35958307329
+)
