@@ -47,21 +47,21 @@
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/9v0066dd4c360000000003c9">Markdown Blog Editing</a> - 147 entries
+<a href="/challenges/9v0066dd4c360000000003c9">Markdown Blog Editing</a> - 159 entries
 </h5>
 <p>Convert the given link text in start file to a markdown link list.</p>
 </div>
 <ul>
 <li>Best score: <b>30</b></li>
 <li>Best player score: <b>36</b></li>
-<li>Position: <b>#12 / 40</b></li>
+<li>Position: <b>#12 / 42</b></li>
 <li>Number of attempts: <b><a href="/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/9v0066d89856000000000388">Fix timezone format</a> - 153 entries
+<a href="/challenges/9v0066d89856000000000388">Fix timezone format</a> - 159 entries
 </h5>
 <p>Add the missing T and Z in the datetime field.
 There should be a T instead of the space, and a Z at the end of the datetime.
@@ -70,8 +70,22 @@ There should be a T instead of the space, and a Z at the end of the datetime.
 <ul>
 <li>Best score: <b>15</b></li>
 <li>Best player score: <b>15</b></li>
-<li>Position: <b>#10 / 51</b></li>
+<li>Position: <b>#10 / 53</b></li>
 <li>Number of attempts: <b><a href="/challenges/9v0066d89856000000000388/user/mau-mauricelim">5</a></b></li>
+</ul>
+</div>
+<div>
+<div>
+<h5 class="challenge">
+<a href="/challenges/9v0066d8266e000000000367">Search different SQL column with similar where clause</a> - 93 entries
+</h5>
+<p>Replace a column in the where clause and convert all numbers from text to numeric, by replacing the leading 0 with the code 359.</p>
+</div>
+<ul>
+<li>Best score: <b>22</b></li>
+<li>Best player score: <b>22</b></li>
+<li>Position: <b>#6 / 32</b></li>
+<li>Number of attempts: <b><a href="/challenges/9v0066d8266e000000000367/user/mau-mauricelim">6</a></b></li>
 </ul>
 </div>
 <div>
@@ -147,7 +161,7 @@ There should be a T instead of the space, and a Z at the end of the datetime.
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/55b18bbea9c2c30d04000001">Simple, Practical, and Common</a> - 33558 entries
+<a href="/challenges/55b18bbea9c2c30d04000001">Simple, Practical, and Common</a> - 33569 entries
 </h5>
 <p>Simple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I need to do makes me go, &quot;There MUST be a better way.&quot;
 This challenge is just a simple movement and entering text at a certain place.</p>
@@ -155,21 +169,21 @@ This challenge is just a simple movement and entering text at a certain place.</
 <ul>
 <li>Best score: <b>22</b></li>
 <li>Best player score: <b>24</b></li>
-<li>Position: <b>#3115 / 7402</b></li>
+<li>Position: <b>#3116 / 7404</b></li>
 <li>Number of attempts: <b><a href="/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/56fb2e75ccffcc0009026473">One number per line</a> - 18705 entries
+<a href="/challenges/56fb2e75ccffcc0009026473">One number per line</a> - 18709 entries
 </h5>
 <p>Just give me the numbers.</p>
 </div>
 <ul>
 <li>Best score: <b>14</b></li>
 <li>Best player score: <b>21</b></li>
-<li>Position: <b>#2580 / 3855</b></li>
+<li>Position: <b>#2581 / 3856</b></li>
 <li>Number of attempts: <b><a href="/challenges/56fb2e75ccffcc0009026473/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
@@ -218,14 +232,14 @@ This challenge is just a simple movement and entering text at a certain place.</
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/5c742a5a50bdf70006d43280">Box it</a> - 7897 entries
+<a href="/challenges/5c742a5a50bdf70006d43280">Box it</a> - 7898 entries
 </h5>
 <p>Create a box around a line.</p>
 </div>
 <ul>
 <li>Best score: <b>21</b></li>
 <li>Best player score: <b>25</b></li>
-<li>Position: <b>#1043 / 1872</b></li>
+<li>Position: <b>#1043 / 1873</b></li>
 <li>Number of attempts: <b><a href="/challenges/5c742a5a50bdf70006d43280/user/mau-mauricelim">5</a></b></li>
 </ul>
 </div>
@@ -260,14 +274,14 @@ This challenge is just a simple movement and entering text at a certain place.</
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/54862fbb3f90ac0002904cf5">Just the middle</a> - 11421 entries
+<a href="/challenges/54862fbb3f90ac0002904cf5">Just the middle</a> - 11423 entries
 </h5>
 <p>Delete the instructions at the top and bottom.</p>
 </div>
 <ul>
 <li>Best score: <b>7</b></li>
 <li>Best player score: <b>8</b></li>
-<li>Position: <b>#3200 / 4184</b></li>
+<li>Position: <b>#3200 / 4185</b></li>
 <li>Number of attempts: <b><a href="/challenges/54862fbb3f90ac0002904cf5/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
@@ -345,28 +359,28 @@ Inspired by this Reddit thread: https://redd.it/ak4it2</p>
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/5462e3f41198b80002512673">I forgot quotes</a> - 15962 entries
+<a href="/challenges/5462e3f41198b80002512673">I forgot quotes</a> - 15967 entries
 </h5>
 <p>Oops.</p>
 </div>
 <ul>
 <li>Best score: <b>10</b></li>
 <li>Best player score: <b>15</b></li>
-<li>Position: <b>#2385 / 4173</b></li>
+<li>Position: <b>#2386 / 4174</b></li>
 <li>Number of attempts: <b><a href="/challenges/5462e3f41198b80002512673/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/5192f96ad8df110002000002">Words in parens</a> - 12919 entries
+<a href="/challenges/5192f96ad8df110002000002">Words in parens</a> - 12925 entries
 </h5>
 <p>We should all ace this, right?</p>
 </div>
 <ul>
 <li>Best score: <b>13</b></li>
 <li>Best player score: <b>14</b></li>
-<li>Position: <b>#1176 / 3958</b></li>
+<li>Position: <b>#1176 / 3959</b></li>
 <li>Number of attempts: <b><a href="/challenges/5192f96ad8df110002000002/user/mau-mauricelim">5</a></b></li>
 </ul>
 </div>
@@ -413,7 +427,7 @@ w3CQGJUM/I3sHwgogVIf638KEKeSaAroSBYifcR/gPkDUT5iflj/U/4AESoB
 </h6>
 <p style="margin-bottom:0"><em></em></p>
 </div>
-<h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">25</b> challenges</h2>
+<h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">26</b> challenges</h2>
 <h2 style="padding:0em;margin:0.5em 1.5em">contributed <b class="stat">0</b> challenges</h2>
 </div>
 </div>
