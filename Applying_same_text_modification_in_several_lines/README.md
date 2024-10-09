@@ -40,5 +40,5 @@ _application.ShowsSniperHasLostAuction();
 ```
 ## KdbGolf Solution
 ```q
-`:out 0:{ssr[36_x;"))";")"]}@'read0`:inp
+`:out 0:{x _x?")"}@'36_'read0`:inp
 ```

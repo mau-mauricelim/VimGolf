@@ -69,7 +69,7 @@ _application.ShowsSniperHasLostAuction();
 ```
 ## KdbGolf Solution
 ```q
-`:out 0:{ssr[36_x;"))";")"]}@'read0`:inp
+`:out 0:{x _x?")"}@'36_'read0`:inp
 ```
 # Basic_renumbering
 ## Start file
@@ -1624,21 +1624,21 @@ ten:10
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/9v0066dd4c360000000003c9">Markdown Blog Editing</a> - 147 entries
+<a href="/challenges/9v0066dd4c360000000003c9">Markdown Blog Editing</a> - 159 entries
 </h5>
 <p>Convert the given link text in start file to a markdown link list.</p>
 </div>
 <ul>
 <li>Best score: <b>30</b></li>
 <li>Best player score: <b>36</b></li>
-<li>Position: <b>#12 / 40</b></li>
+<li>Position: <b>#12 / 42</b></li>
 <li>Number of attempts: <b><a href="/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/9v0066d89856000000000388">Fix timezone format</a> - 153 entries
+<a href="/challenges/9v0066d89856000000000388">Fix timezone format</a> - 159 entries
 </h5>
 <p>Add the missing T and Z in the datetime field.
 There should be a T instead of the space, and a Z at the end of the datetime.
@@ -1647,8 +1647,22 @@ There should be a T instead of the space, and a Z at the end of the datetime.
 <ul>
 <li>Best score: <b>15</b></li>
 <li>Best player score: <b>15</b></li>
-<li>Position: <b>#10 / 51</b></li>
+<li>Position: <b>#10 / 53</b></li>
 <li>Number of attempts: <b><a href="/challenges/9v0066d89856000000000388/user/mau-mauricelim">5</a></b></li>
+</ul>
+</div>
+<div>
+<div>
+<h5 class="challenge">
+<a href="/challenges/9v0066d8266e000000000367">Search different SQL column with similar where clause</a> - 93 entries
+</h5>
+<p>Replace a column in the where clause and convert all numbers from text to numeric, by replacing the leading 0 with the code 359.</p>
+</div>
+<ul>
+<li>Best score: <b>22</b></li>
+<li>Best player score: <b>22</b></li>
+<li>Position: <b>#6 / 32</b></li>
+<li>Number of attempts: <b><a href="/challenges/9v0066d8266e000000000367/user/mau-mauricelim">6</a></b></li>
 </ul>
 </div>
 <div>
@@ -1724,7 +1738,7 @@ There should be a T instead of the space, and a Z at the end of the datetime.
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/55b18bbea9c2c30d04000001">Simple, Practical, and Common</a> - 33558 entries
+<a href="/challenges/55b18bbea9c2c30d04000001">Simple, Practical, and Common</a> - 33569 entries
 </h5>
 <p>Simple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I need to do makes me go, &quot;There MUST be a better way.&quot;
 This challenge is just a simple movement and entering text at a certain place.</p>
@@ -1732,21 +1746,21 @@ This challenge is just a simple movement and entering text at a certain place.</
 <ul>
 <li>Best score: <b>22</b></li>
 <li>Best player score: <b>24</b></li>
-<li>Position: <b>#3115 / 7402</b></li>
+<li>Position: <b>#3116 / 7404</b></li>
 <li>Number of attempts: <b><a href="/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/56fb2e75ccffcc0009026473">One number per line</a> - 18705 entries
+<a href="/challenges/56fb2e75ccffcc0009026473">One number per line</a> - 18709 entries
 </h5>
 <p>Just give me the numbers.</p>
 </div>
 <ul>
 <li>Best score: <b>14</b></li>
 <li>Best player score: <b>21</b></li>
-<li>Position: <b>#2580 / 3855</b></li>
+<li>Position: <b>#2581 / 3856</b></li>
 <li>Number of attempts: <b><a href="/challenges/56fb2e75ccffcc0009026473/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
@@ -1795,14 +1809,14 @@ This challenge is just a simple movement and entering text at a certain place.</
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/5c742a5a50bdf70006d43280">Box it</a> - 7897 entries
+<a href="/challenges/5c742a5a50bdf70006d43280">Box it</a> - 7898 entries
 </h5>
 <p>Create a box around a line.</p>
 </div>
 <ul>
 <li>Best score: <b>21</b></li>
 <li>Best player score: <b>25</b></li>
-<li>Position: <b>#1043 / 1872</b></li>
+<li>Position: <b>#1043 / 1873</b></li>
 <li>Number of attempts: <b><a href="/challenges/5c742a5a50bdf70006d43280/user/mau-mauricelim">5</a></b></li>
 </ul>
 </div>
@@ -1837,14 +1851,14 @@ This challenge is just a simple movement and entering text at a certain place.</
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/54862fbb3f90ac0002904cf5">Just the middle</a> - 11421 entries
+<a href="/challenges/54862fbb3f90ac0002904cf5">Just the middle</a> - 11423 entries
 </h5>
 <p>Delete the instructions at the top and bottom.</p>
 </div>
 <ul>
 <li>Best score: <b>7</b></li>
 <li>Best player score: <b>8</b></li>
-<li>Position: <b>#3200 / 4184</b></li>
+<li>Position: <b>#3200 / 4185</b></li>
 <li>Number of attempts: <b><a href="/challenges/54862fbb3f90ac0002904cf5/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
@@ -1922,28 +1936,28 @@ Inspired by this Reddit thread: https://redd.it/ak4it2</p>
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/5462e3f41198b80002512673">I forgot quotes</a> - 15962 entries
+<a href="/challenges/5462e3f41198b80002512673">I forgot quotes</a> - 15967 entries
 </h5>
 <p>Oops.</p>
 </div>
 <ul>
 <li>Best score: <b>10</b></li>
 <li>Best player score: <b>15</b></li>
-<li>Position: <b>#2385 / 4173</b></li>
+<li>Position: <b>#2386 / 4174</b></li>
 <li>Number of attempts: <b><a href="/challenges/5462e3f41198b80002512673/user/mau-mauricelim">3</a></b></li>
 </ul>
 </div>
 <div>
 <div>
 <h5 class="challenge">
-<a href="/challenges/5192f96ad8df110002000002">Words in parens</a> - 12919 entries
+<a href="/challenges/5192f96ad8df110002000002">Words in parens</a> - 12925 entries
 </h5>
 <p>We should all ace this, right?</p>
 </div>
 <ul>
 <li>Best score: <b>13</b></li>
 <li>Best player score: <b>14</b></li>
-<li>Position: <b>#1176 / 3958</b></li>
+<li>Position: <b>#1176 / 3959</b></li>
 <li>Number of attempts: <b><a href="/challenges/5192f96ad8df110002000002/user/mau-mauricelim">5</a></b></li>
 </ul>
 </div>
@@ -1990,7 +2004,7 @@ w3CQGJUM/I3sHwgogVIf638KEKeSaAroSBYifcR/gPkDUT5iflj/U/4AESoB
 </h6>
 <p style="margin-bottom:0"><em></em></p>
 </div>
-<h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">25</b> challenges</h2>
+<h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">26</b> challenges</h2>
 <h2 style="padding:0em;margin:0.5em 1.5em">contributed <b class="stat">0</b> challenges</h2>
 </div>
 </div>
@@ -2019,29 +2033,30 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 ```
 |Played Challenges|Entries|Best score|Best player score|Position|Number of attempts|
 |-|-|-|-|-|-|
-|[Markdown Blog Editing](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9)|147|30|36|#12 / 40|[3](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim)|
-|[Fix timezone format](https://www.vimgolf.com/challenges/9v0066d89856000000000388)|153|15|15|#10 / 51|[5](https://www.vimgolf.com/challenges/9v0066d89856000000000388/user/mau-mauricelim)|
+|[Markdown Blog Editing](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9)|159|30|36|#12 / 42|[3](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim)|
+|[Fix timezone format](https://www.vimgolf.com/challenges/9v0066d89856000000000388)|159|15|15|#10 / 53|[5](https://www.vimgolf.com/challenges/9v0066d89856000000000388/user/mau-mauricelim)|
+|[Search different SQL column with similar where clause](https://www.vimgolf.com/challenges/9v0066d8266e000000000367)|93|22|22|#6 / 32|[6](https://www.vimgolf.com/challenges/9v0066d8266e000000000367/user/mau-mauricelim)|
 |[Poorly indented Python comments](https://www.vimgolf.com/challenges/9v00628a9b2f000000000220)|1313|15|15|#55 / 220|[11](https://www.vimgolf.com/challenges/9v00628a9b2f000000000220/user/mau-mauricelim)|
 |[hello-world-vimgolf](https://www.vimgolf.com/challenges/9v0061478032000000000212)|2484|10|10|#341 / 703|[3](https://www.vimgolf.com/challenges/9v0061478032000000000212/user/mau-mauricelim)|
 |[Contribute to keyboard mashing](https://www.vimgolf.com/challenges/9v00612c165c000000000211)|890|17|18|#116 / 270|[3](https://www.vimgolf.com/challenges/9v00612c165c000000000211/user/mau-mauricelim)|
 |[Reordering Lorem Ipsum](https://www.vimgolf.com/challenges/9v00612800cb000000000210)|290|13|73|#41 / 66|[3](https://www.vimgolf.com/challenges/9v00612800cb000000000210/user/mau-mauricelim)|
 |[Fill in the chess board](https://www.vimgolf.com/challenges/9v006115f6d000000000020c)|953|19|25|#63 / 182|[6](https://www.vimgolf.com/challenges/9v006115f6d000000000020c/user/mau-mauricelim)|
-|[Simple, Practical, and Common](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001)|33558|22|24|#3115 / 7402|[3](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim)|
-|[One number per line](https://www.vimgolf.com/challenges/56fb2e75ccffcc0009026473)|18705|14|21|#2580 / 3855|[3](https://www.vimgolf.com/challenges/56fb2e75ccffcc0009026473/user/mau-mauricelim)|
+|[Simple, Practical, and Common](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001)|33569|22|24|#3116 / 7404|[3](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim)|
+|[One number per line](https://www.vimgolf.com/challenges/56fb2e75ccffcc0009026473)|18709|14|21|#2581 / 3856|[3](https://www.vimgolf.com/challenges/56fb2e75ccffcc0009026473/user/mau-mauricelim)|
 |[Applying same text modification in several lines](https://www.vimgolf.com/challenges/5bbb82f969a25f0009541350)|2859|12|15|#540 / 845|[4](https://www.vimgolf.com/challenges/5bbb82f969a25f0009541350/user/mau-mauricelim)|
 |[remove lines containing the word &quot;reader&quot;](https://www.vimgolf.com/challenges/5c264e64e8c64916d7fca650)|3573|9|10|#857 / 1157|[2](https://www.vimgolf.com/challenges/5c264e64e8c64916d7fca650/user/mau-mauricelim)|
 |[Com(m)a Trouble](https://www.vimgolf.com/challenges/5ba020f91abf2d000951055c)|3780|12|15|#449 / 855|[4](https://www.vimgolf.com/challenges/5ba020f91abf2d000951055c/user/mau-mauricelim)|
-|[Box it](https://www.vimgolf.com/challenges/5c742a5a50bdf70006d43280)|7897|21|25|#1043 / 1872|[5](https://www.vimgolf.com/challenges/5c742a5a50bdf70006d43280/user/mau-mauricelim)|
+|[Box it](https://www.vimgolf.com/challenges/5c742a5a50bdf70006d43280)|7898|21|25|#1043 / 1873|[5](https://www.vimgolf.com/challenges/5c742a5a50bdf70006d43280/user/mau-mauricelim)|
 |[Cool or not?](https://www.vimgolf.com/challenges/5c82a157c82f3900064c82d7)|829|15|20|#166 / 230|[2](https://www.vimgolf.com/challenges/5c82a157c82f3900064c82d7/user/mau-mauricelim)|
 |[Two pairs of cluster of letters creates word](https://www.vimgolf.com/challenges/5c93945c9caf21000ca842f7)|749|17|24|#142 / 178|[2](https://www.vimgolf.com/challenges/5c93945c9caf21000ca842f7/user/mau-mauricelim)|
-|[Just the middle](https://www.vimgolf.com/challenges/54862fbb3f90ac0002904cf5)|11421|7|8|#3200 / 4184|[3](https://www.vimgolf.com/challenges/54862fbb3f90ac0002904cf5/user/mau-mauricelim)|
+|[Just the middle](https://www.vimgolf.com/challenges/54862fbb3f90ac0002904cf5)|11423|7|8|#3200 / 4185|[3](https://www.vimgolf.com/challenges/54862fbb3f90ac0002904cf5/user/mau-mauricelim)|
 |[Basic renumbering](https://www.vimgolf.com/challenges/54595b13128576000257a3c1)|5644|11|11|#279 / 1262|[1](https://www.vimgolf.com/challenges/54595b13128576000257a3c1/user/mau-mauricelim)|
 |[ninja substitution](https://www.vimgolf.com/challenges/5cb9d07d716c1b0009f69a40)|1420|14|18|#193 / 267|[2](https://www.vimgolf.com/challenges/5cb9d07d716c1b0009f69a40/user/mau-mauricelim)|
 |[One to Ten](https://www.vimgolf.com/challenges/5c4d042acfafb4000c9f06c2)|2209|12|12|#365 / 669|[1](https://www.vimgolf.com/challenges/5c4d042acfafb4000c9f06c2/user/mau-mauricelim)|
 |[Increment each number](https://www.vimgolf.com/challenges/5c645526fa8ae200061757ad)|1023|15|21|#183 / 248|[3](https://www.vimgolf.com/challenges/5c645526fa8ae200061757ad/user/mau-mauricelim)|
 |[simple format (3)](https://www.vimgolf.com/challenges/5bff6e560d5dc0000ca3485b)|86|34|57|#20 / 24|[4](https://www.vimgolf.com/challenges/5bff6e560d5dc0000ca3485b/user/mau-mauricelim)|
-|[I forgot quotes](https://www.vimgolf.com/challenges/5462e3f41198b80002512673)|15962|10|15|#2385 / 4173|[3](https://www.vimgolf.com/challenges/5462e3f41198b80002512673/user/mau-mauricelim)|
-|[Words in parens](https://www.vimgolf.com/challenges/5192f96ad8df110002000002)|12919|13|14|#1176 / 3958|[5](https://www.vimgolf.com/challenges/5192f96ad8df110002000002/user/mau-mauricelim)|
+|[I forgot quotes](https://www.vimgolf.com/challenges/5462e3f41198b80002512673)|15967|10|15|#2386 / 4174|[3](https://www.vimgolf.com/challenges/5462e3f41198b80002512673/user/mau-mauricelim)|
+|[Words in parens](https://www.vimgolf.com/challenges/5192f96ad8df110002000002)|12925|13|14|#1176 / 3959|[5](https://www.vimgolf.com/challenges/5192f96ad8df110002000002/user/mau-mauricelim)|
 |[Resort and deup a CSV list](https://www.vimgolf.com/challenges/5cace3ba888961000986ec8d)|167|44|48|#24 / 43|[6](https://www.vimgolf.com/challenges/5cace3ba888961000986ec8d/user/mau-mauricelim)|
 |[Simple text editing with Vim](https://www.vimgolf.com/challenges/4d1a34ccfa85f32065000004)|12655|13|13|#725 / 3659|[2](https://www.vimgolf.com/challenges/4d1a34ccfa85f32065000004/user/mau-mauricelim)|
 ```
@@ -2049,7 +2064,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 <details><summary>Click me</summary>
 
 ```
-1,439c1,27
+1,453c1,28
 < <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 <     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 < <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
@@ -2099,21 +2114,21 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <div>
 < <div>
 < <h5 class="challenge">
-< <a href="/challenges/9v0066dd4c360000000003c9">Markdown Blog Editing</a> - 147 entries
+< <a href="/challenges/9v0066dd4c360000000003c9">Markdown Blog Editing</a> - 159 entries
 < </h5>
 < <p>Convert the given link text in start file to a markdown link list.</p>
 < </div>
 < <ul>
 < <li>Best score: <b>30</b></li>
 < <li>Best player score: <b>36</b></li>
-< <li>Position: <b>#12 / 40</b></li>
+< <li>Position: <b>#12 / 42</b></li>
 < <li>Number of attempts: <b><a href="/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim">3</a></b></li>
 < </ul>
 < </div>
 < <div>
 < <div>
 < <h5 class="challenge">
-< <a href="/challenges/9v0066d89856000000000388">Fix timezone format</a> - 153 entries
+< <a href="/challenges/9v0066d89856000000000388">Fix timezone format</a> - 159 entries
 < </h5>
 < <p>Add the missing T and Z in the datetime field.
 < There should be a T instead of the space, and a Z at the end of the datetime.
@@ -2122,8 +2137,22 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <ul>
 < <li>Best score: <b>15</b></li>
 < <li>Best player score: <b>15</b></li>
-< <li>Position: <b>#10 / 51</b></li>
+< <li>Position: <b>#10 / 53</b></li>
 < <li>Number of attempts: <b><a href="/challenges/9v0066d89856000000000388/user/mau-mauricelim">5</a></b></li>
+< </ul>
+< </div>
+< <div>
+< <div>
+< <h5 class="challenge">
+< <a href="/challenges/9v0066d8266e000000000367">Search different SQL column with similar where clause</a> - 93 entries
+< </h5>
+< <p>Replace a column in the where clause and convert all numbers from text to numeric, by replacing the leading 0 with the code 359.</p>
+< </div>
+< <ul>
+< <li>Best score: <b>22</b></li>
+< <li>Best player score: <b>22</b></li>
+< <li>Position: <b>#6 / 32</b></li>
+< <li>Number of attempts: <b><a href="/challenges/9v0066d8266e000000000367/user/mau-mauricelim">6</a></b></li>
 < </ul>
 < </div>
 < <div>
@@ -2199,7 +2228,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <div>
 < <div>
 < <h5 class="challenge">
-< <a href="/challenges/55b18bbea9c2c30d04000001">Simple, Practical, and Common</a> - 33558 entries
+< <a href="/challenges/55b18bbea9c2c30d04000001">Simple, Practical, and Common</a> - 33569 entries
 < </h5>
 < <p>Simple things we do all the time should be able to be done with very few keystrokes, but sometimes I find something I need to do makes me go, &quot;There MUST be a better way.&quot;
 < This challenge is just a simple movement and entering text at a certain place.</p>
@@ -2207,21 +2236,21 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <ul>
 < <li>Best score: <b>22</b></li>
 < <li>Best player score: <b>24</b></li>
-< <li>Position: <b>#3115 / 7402</b></li>
+< <li>Position: <b>#3116 / 7404</b></li>
 < <li>Number of attempts: <b><a href="/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim">3</a></b></li>
 < </ul>
 < </div>
 < <div>
 < <div>
 < <h5 class="challenge">
-< <a href="/challenges/56fb2e75ccffcc0009026473">One number per line</a> - 18705 entries
+< <a href="/challenges/56fb2e75ccffcc0009026473">One number per line</a> - 18709 entries
 < </h5>
 < <p>Just give me the numbers.</p>
 < </div>
 < <ul>
 < <li>Best score: <b>14</b></li>
 < <li>Best player score: <b>21</b></li>
-< <li>Position: <b>#2580 / 3855</b></li>
+< <li>Position: <b>#2581 / 3856</b></li>
 < <li>Number of attempts: <b><a href="/challenges/56fb2e75ccffcc0009026473/user/mau-mauricelim">3</a></b></li>
 < </ul>
 < </div>
@@ -2270,14 +2299,14 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <div>
 < <div>
 < <h5 class="challenge">
-< <a href="/challenges/5c742a5a50bdf70006d43280">Box it</a> - 7897 entries
+< <a href="/challenges/5c742a5a50bdf70006d43280">Box it</a> - 7898 entries
 < </h5>
 < <p>Create a box around a line.</p>
 < </div>
 < <ul>
 < <li>Best score: <b>21</b></li>
 < <li>Best player score: <b>25</b></li>
-< <li>Position: <b>#1043 / 1872</b></li>
+< <li>Position: <b>#1043 / 1873</b></li>
 < <li>Number of attempts: <b><a href="/challenges/5c742a5a50bdf70006d43280/user/mau-mauricelim">5</a></b></li>
 < </ul>
 < </div>
@@ -2312,14 +2341,14 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <div>
 < <div>
 < <h5 class="challenge">
-< <a href="/challenges/54862fbb3f90ac0002904cf5">Just the middle</a> - 11421 entries
+< <a href="/challenges/54862fbb3f90ac0002904cf5">Just the middle</a> - 11423 entries
 < </h5>
 < <p>Delete the instructions at the top and bottom.</p>
 < </div>
 < <ul>
 < <li>Best score: <b>7</b></li>
 < <li>Best player score: <b>8</b></li>
-< <li>Position: <b>#3200 / 4184</b></li>
+< <li>Position: <b>#3200 / 4185</b></li>
 < <li>Number of attempts: <b><a href="/challenges/54862fbb3f90ac0002904cf5/user/mau-mauricelim">3</a></b></li>
 < </ul>
 < </div>
@@ -2397,28 +2426,28 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < <div>
 < <div>
 < <h5 class="challenge">
-< <a href="/challenges/5462e3f41198b80002512673">I forgot quotes</a> - 15962 entries
+< <a href="/challenges/5462e3f41198b80002512673">I forgot quotes</a> - 15967 entries
 < </h5>
 < <p>Oops.</p>
 < </div>
 < <ul>
 < <li>Best score: <b>10</b></li>
 < <li>Best player score: <b>15</b></li>
-< <li>Position: <b>#2385 / 4173</b></li>
+< <li>Position: <b>#2386 / 4174</b></li>
 < <li>Number of attempts: <b><a href="/challenges/5462e3f41198b80002512673/user/mau-mauricelim">3</a></b></li>
 < </ul>
 < </div>
 < <div>
 < <div>
 < <h5 class="challenge">
-< <a href="/challenges/5192f96ad8df110002000002">Words in parens</a> - 12919 entries
+< <a href="/challenges/5192f96ad8df110002000002">Words in parens</a> - 12925 entries
 < </h5>
 < <p>We should all ace this, right?</p>
 < </div>
 < <ul>
 < <li>Best score: <b>13</b></li>
 < <li>Best player score: <b>14</b></li>
-< <li>Position: <b>#1176 / 3958</b></li>
+< <li>Position: <b>#1176 / 3959</b></li>
 < <li>Number of attempts: <b><a href="/challenges/5192f96ad8df110002000002/user/mau-mauricelim">5</a></b></li>
 < </ul>
 < </div>
@@ -2465,7 +2494,7 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 < </h6>
 < <p style="margin-bottom:0"><em></em></p>
 < </div>
-< <h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">25</b> challenges</h2>
+< <h2 style="padding:0em;margin:1em 1.5em 0.5em 1.5em">entered into <b class="stat">26</b> challenges</h2>
 < <h2 style="padding:0em;margin:0.5em 1.5em">contributed <b class="stat">0</b> challenges</h2>
 < </div>
 < </div>
@@ -2492,29 +2521,30 @@ CLI Version: <b><a href="https://github.com/igrigorik/vimgolf">0.5.0</a></b>, &n
 ---
 > |Played Challenges|Entries|Best score|Best player score|Position|Number of attempts|
 > |-|-|-|-|-|-|
-> |[Markdown Blog Editing](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9)|147|30|36|#12 / 40|[3](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim)|
-> |[Fix timezone format](https://www.vimgolf.com/challenges/9v0066d89856000000000388)|153|15|15|#10 / 51|[5](https://www.vimgolf.com/challenges/9v0066d89856000000000388/user/mau-mauricelim)|
+> |[Markdown Blog Editing](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9)|159|30|36|#12 / 42|[3](https://www.vimgolf.com/challenges/9v0066dd4c360000000003c9/user/mau-mauricelim)|
+> |[Fix timezone format](https://www.vimgolf.com/challenges/9v0066d89856000000000388)|159|15|15|#10 / 53|[5](https://www.vimgolf.com/challenges/9v0066d89856000000000388/user/mau-mauricelim)|
+> |[Search different SQL column with similar where clause](https://www.vimgolf.com/challenges/9v0066d8266e000000000367)|93|22|22|#6 / 32|[6](https://www.vimgolf.com/challenges/9v0066d8266e000000000367/user/mau-mauricelim)|
 > |[Poorly indented Python comments](https://www.vimgolf.com/challenges/9v00628a9b2f000000000220)|1313|15|15|#55 / 220|[11](https://www.vimgolf.com/challenges/9v00628a9b2f000000000220/user/mau-mauricelim)|
 > |[hello-world-vimgolf](https://www.vimgolf.com/challenges/9v0061478032000000000212)|2484|10|10|#341 / 703|[3](https://www.vimgolf.com/challenges/9v0061478032000000000212/user/mau-mauricelim)|
 > |[Contribute to keyboard mashing](https://www.vimgolf.com/challenges/9v00612c165c000000000211)|890|17|18|#116 / 270|[3](https://www.vimgolf.com/challenges/9v00612c165c000000000211/user/mau-mauricelim)|
 > |[Reordering Lorem Ipsum](https://www.vimgolf.com/challenges/9v00612800cb000000000210)|290|13|73|#41 / 66|[3](https://www.vimgolf.com/challenges/9v00612800cb000000000210/user/mau-mauricelim)|
 > |[Fill in the chess board](https://www.vimgolf.com/challenges/9v006115f6d000000000020c)|953|19|25|#63 / 182|[6](https://www.vimgolf.com/challenges/9v006115f6d000000000020c/user/mau-mauricelim)|
-> |[Simple, Practical, and Common](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001)|33558|22|24|#3115 / 7402|[3](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim)|
-> |[One number per line](https://www.vimgolf.com/challenges/56fb2e75ccffcc0009026473)|18705|14|21|#2580 / 3855|[3](https://www.vimgolf.com/challenges/56fb2e75ccffcc0009026473/user/mau-mauricelim)|
+> |[Simple, Practical, and Common](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001)|33569|22|24|#3116 / 7404|[3](https://www.vimgolf.com/challenges/55b18bbea9c2c30d04000001/user/mau-mauricelim)|
+> |[One number per line](https://www.vimgolf.com/challenges/56fb2e75ccffcc0009026473)|18709|14|21|#2581 / 3856|[3](https://www.vimgolf.com/challenges/56fb2e75ccffcc0009026473/user/mau-mauricelim)|
 > |[Applying same text modification in several lines](https://www.vimgolf.com/challenges/5bbb82f969a25f0009541350)|2859|12|15|#540 / 845|[4](https://www.vimgolf.com/challenges/5bbb82f969a25f0009541350/user/mau-mauricelim)|
 > |[remove lines containing the word &quot;reader&quot;](https://www.vimgolf.com/challenges/5c264e64e8c64916d7fca650)|3573|9|10|#857 / 1157|[2](https://www.vimgolf.com/challenges/5c264e64e8c64916d7fca650/user/mau-mauricelim)|
 > |[Com(m)a Trouble](https://www.vimgolf.com/challenges/5ba020f91abf2d000951055c)|3780|12|15|#449 / 855|[4](https://www.vimgolf.com/challenges/5ba020f91abf2d000951055c/user/mau-mauricelim)|
-> |[Box it](https://www.vimgolf.com/challenges/5c742a5a50bdf70006d43280)|7897|21|25|#1043 / 1872|[5](https://www.vimgolf.com/challenges/5c742a5a50bdf70006d43280/user/mau-mauricelim)|
+> |[Box it](https://www.vimgolf.com/challenges/5c742a5a50bdf70006d43280)|7898|21|25|#1043 / 1873|[5](https://www.vimgolf.com/challenges/5c742a5a50bdf70006d43280/user/mau-mauricelim)|
 > |[Cool or not?](https://www.vimgolf.com/challenges/5c82a157c82f3900064c82d7)|829|15|20|#166 / 230|[2](https://www.vimgolf.com/challenges/5c82a157c82f3900064c82d7/user/mau-mauricelim)|
 > |[Two pairs of cluster of letters creates word](https://www.vimgolf.com/challenges/5c93945c9caf21000ca842f7)|749|17|24|#142 / 178|[2](https://www.vimgolf.com/challenges/5c93945c9caf21000ca842f7/user/mau-mauricelim)|
-> |[Just the middle](https://www.vimgolf.com/challenges/54862fbb3f90ac0002904cf5)|11421|7|8|#3200 / 4184|[3](https://www.vimgolf.com/challenges/54862fbb3f90ac0002904cf5/user/mau-mauricelim)|
+> |[Just the middle](https://www.vimgolf.com/challenges/54862fbb3f90ac0002904cf5)|11423|7|8|#3200 / 4185|[3](https://www.vimgolf.com/challenges/54862fbb3f90ac0002904cf5/user/mau-mauricelim)|
 > |[Basic renumbering](https://www.vimgolf.com/challenges/54595b13128576000257a3c1)|5644|11|11|#279 / 1262|[1](https://www.vimgolf.com/challenges/54595b13128576000257a3c1/user/mau-mauricelim)|
 > |[ninja substitution](https://www.vimgolf.com/challenges/5cb9d07d716c1b0009f69a40)|1420|14|18|#193 / 267|[2](https://www.vimgolf.com/challenges/5cb9d07d716c1b0009f69a40/user/mau-mauricelim)|
 > |[One to Ten](https://www.vimgolf.com/challenges/5c4d042acfafb4000c9f06c2)|2209|12|12|#365 / 669|[1](https://www.vimgolf.com/challenges/5c4d042acfafb4000c9f06c2/user/mau-mauricelim)|
 > |[Increment each number](https://www.vimgolf.com/challenges/5c645526fa8ae200061757ad)|1023|15|21|#183 / 248|[3](https://www.vimgolf.com/challenges/5c645526fa8ae200061757ad/user/mau-mauricelim)|
 > |[simple format (3)](https://www.vimgolf.com/challenges/5bff6e560d5dc0000ca3485b)|86|34|57|#20 / 24|[4](https://www.vimgolf.com/challenges/5bff6e560d5dc0000ca3485b/user/mau-mauricelim)|
-> |[I forgot quotes](https://www.vimgolf.com/challenges/5462e3f41198b80002512673)|15962|10|15|#2385 / 4173|[3](https://www.vimgolf.com/challenges/5462e3f41198b80002512673/user/mau-mauricelim)|
-> |[Words in parens](https://www.vimgolf.com/challenges/5192f96ad8df110002000002)|12919|13|14|#1176 / 3958|[5](https://www.vimgolf.com/challenges/5192f96ad8df110002000002/user/mau-mauricelim)|
+> |[I forgot quotes](https://www.vimgolf.com/challenges/5462e3f41198b80002512673)|15967|10|15|#2386 / 4174|[3](https://www.vimgolf.com/challenges/5462e3f41198b80002512673/user/mau-mauricelim)|
+> |[Words in parens](https://www.vimgolf.com/challenges/5192f96ad8df110002000002)|12925|13|14|#1176 / 3959|[5](https://www.vimgolf.com/challenges/5192f96ad8df110002000002/user/mau-mauricelim)|
 > |[Resort and deup a CSV list](https://www.vimgolf.com/challenges/5cace3ba888961000986ec8d)|167|44|48|#24 / 43|[6](https://www.vimgolf.com/challenges/5cace3ba888961000986ec8d/user/mau-mauricelim)|
 > |[Simple text editing with Vim](https://www.vimgolf.com/challenges/4d1a34ccfa85f32065000004)|12655|13|13|#725 / 3659|[2](https://www.vimgolf.com/challenges/4d1a34ccfa85f32065000004/user/mau-mauricelim)|
 ```
