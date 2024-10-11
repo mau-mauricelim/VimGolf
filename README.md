@@ -23,6 +23,8 @@ Challenges: https://www.vimgolf.com/
 10. `X`: Delete [count] characters before the cursor.
 11. `gJ`: Join [count] lines, with a minimum of two lines. Don't insert or remove any spaces.
 12. `+/-`: [count] lines downward/upward, on the first non-blank character linewise.
+13. `Q`: `Ex mode` is useful for chaining multiple commands. Use `x/q` to quit.
+14. `norm` followed by a number does not require a whitespace.
 
 ## Useful Vim resources 📖
 - [vim-galore](https://github.com/mhinz/vim-galore) Everything you need to know about Vim
